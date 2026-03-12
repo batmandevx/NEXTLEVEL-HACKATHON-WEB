@@ -100,8 +100,12 @@ export default function Judges() {
           <h2 className="section-title">
             Our Esteemed <span className="highlight">Judges</span>
           </h2>
+          <div className="selection-badge">
+            <span className="badge-icon">✦</span>
+            <span>11% Selection Rate</span>
+          </div>
           <p className="section-subtitle">
-            30+ industry experts from leading tech companies ready to evaluate your innovations
+            30 elite judges hand-picked from across the US through our rigorous vetting process
           </p>
         </motion.div>
 
@@ -179,6 +183,29 @@ export default function Judges() {
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
           background-clip: text;
+        }
+        
+        .selection-badge {
+          display: inline-flex;
+          align-items: center;
+          gap: 0.5rem;
+          padding: 0.5rem 1rem;
+          background: linear-gradient(135deg, rgba(0, 232, 214, 0.15), rgba(168, 85, 247, 0.15));
+          border: 1px solid rgba(0, 232, 214, 0.3);
+          border-radius: 50px;
+          font-size: 0.875rem;
+          font-weight: 600;
+          color: #00e8d6;
+          margin-bottom: 0.75rem;
+        }
+        
+        .badge-icon {
+          animation: pulse 2s ease-in-out infinite;
+        }
+        
+        @keyframes pulse {
+          0%, 100% { opacity: 1; }
+          50% { opacity: 0.5; }
         }
         
         .section-subtitle {
