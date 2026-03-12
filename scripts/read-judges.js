@@ -14,7 +14,6 @@ const worksheet = workbook.Sheets[sheetName];
 const data = XLSX.utils.sheet_to_json(worksheet);
 
 console.log('Total rows:', data.length);
-console.log('Column names:', Object.keys(data[0] || {}));
 
 // Extract judge information with correct column names
 const judges = data.map((row, index) => {
@@ -40,6 +39,10 @@ const judges = data.map((row, index) => {
     linkedin = 'https://' + linkedin;
   }
 
+  // Get headshot photo URL
+  let photo = row['  Headshot Photo  '] || row['Headshot Photo'] || '';
+  photo = photo.trim();
+
   return {
     id: `j${String(index + 1).padStart(2, '0')}`,
     initials,
@@ -48,6 +51,7 @@ const judges = data.map((row, index) => {
     email: (row['  Email Address  '] || row['Email Address'] || '').trim(),
     role: (row['Current Role / Title '] || row['Current Role / Title'] || '').trim(),
     org: (row['Organization / Company '] || row['Organization / Company'] || row['Organization / Affiliation  '] || '').trim(),
+    photo: photo || null,
   };
 }).filter(j => j.name.length > 0); // Filter out empty rows
 

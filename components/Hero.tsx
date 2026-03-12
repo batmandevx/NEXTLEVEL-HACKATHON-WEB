@@ -49,7 +49,7 @@ function Countdown() {
           <div key={k} style={{ display:'flex', alignItems:'center', gap:5 }}>
             {i > 0 && <span className="cd-colon">:</span>}
             <motion.div 
-              className="cd-box"
+              className="cd-box glass-card"
               whileHover={{ scale: 1.05, borderColor: 'var(--teal)' }}
               transition={{ type: 'spring', stiffness: 300 }}
             >
@@ -98,30 +98,30 @@ export default function Hero() {
   return (
     <section id="hero" ref={containerRef}>
       {/* Enhanced Grid Background */}
-      <div className="hero-grid" />
+      <div className="hero-grid cyber-grid" />
       
       {/* Animated Orbs */}
       <motion.div 
-        className="hero-orb orb1"
+        className="hero-orb orb1 holographic"
         animate={{
-          scale: [1, 1.1, 1],
-          opacity: [0.5, 0.8, 0.5],
+          scale: [1, 1.2, 1],
+          opacity: [0.3, 0.5, 0.3],
         }}
         transition={{ duration: 8, repeat: Infinity, ease: 'easeInOut' }}
       />
       <motion.div 
         className="hero-orb orb2"
         animate={{
-          x: [0, 30, 0],
-          y: [0, -20, 0],
+          x: [0, 50, 0],
+          y: [0, -30, 0],
         }}
         transition={{ duration: 12, repeat: Infinity, ease: 'easeInOut' }}
       />
       <motion.div 
         className="hero-orb orb3"
         animate={{
-          x: [0, -20, 0],
-          y: [0, 30, 0],
+          x: [0, -30, 0],
+          y: [0, 40, 0],
         }}
         transition={{ duration: 10, repeat: Infinity, ease: 'easeInOut' }}
       />
@@ -132,13 +132,13 @@ export default function Hero() {
       >
         {/* Chip */}
         <motion.div
-          className="hero-chip"
+          className="hero-chip glass-card"
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ delay: 0.2, duration: 0.6 }}
         >
           <motion.span 
-            className="chip-dot"
+            className="chip-dot pulse-glow"
             animate={{ scale: [1, 1.5, 1] }}
             transition={{ duration: 1.5, repeat: Infinity }}
           />
@@ -147,7 +147,7 @@ export default function Hero() {
 
         <h1 className="hero-title">
           <motion.span 
-            className="glitch"
+            className="glitch neon-text"
             data-g="NEXT LEVEL"
             custom={0}
             initial="hidden"
@@ -158,7 +158,7 @@ export default function Hero() {
           </motion.span>
           <br />
           <motion.span 
-            className="ta"
+            className="ta gradient-text"
             custom={1}
             initial="hidden"
             animate="visible"
@@ -173,7 +173,7 @@ export default function Hero() {
             initial="hidden"
             animate="visible"
             variants={titleVariants}
-            style={{ color: 'var(--teal)', fontSize: '0.6em', letterSpacing: '8px' }}
+            style={{ color: 'var(--teal)', fontSize: '0.5em', letterSpacing: '12px' }}
           >
             2026
           </motion.span>
@@ -199,9 +199,9 @@ export default function Hero() {
           {[
             { text: '🤖 AI / ML', cls: 'tag-t' },
             { text: '☁️ Cloud', cls: 'tag-v' },
-            { text: '📊 Data Systems', cls: 'tag-a' },
+            { text: '📊 Data', cls: 'tag-a' },
             { text: '🔗 Web3', cls: 'tag-c' },
-            { text: '🔐 Cybersecurity', cls: 'tag-m' },
+            { text: '🔐 Security', cls: 'tag-m' },
           ].map((tag, i) => (
             <motion.span
               key={tag.cls}
@@ -209,7 +209,7 @@ export default function Hero() {
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ delay: 1 + i * 0.1, duration: 0.4 }}
-              whileHover={{ scale: 1.1, y: -3 }}
+              whileHover={{ scale: 1.1, y: -3, boxShadow: '0 10px 30px rgba(0,0,0,0.3)' }}
             >
               {tag.text}
             </motion.span>
@@ -218,16 +218,16 @@ export default function Hero() {
 
         {/* Stats */}
         <motion.div 
-          className="stat-strip"
+          className="stat-strip glass-card"
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 1, duration: 0.8 }}
         >
           {[
-            { n: '$7', em: 'K+', l: 'In Prizes' },
-            { n: '30', em: '', l: 'Expert Judges' },
+            { n: '$7', em: 'K+', l: 'Prizes' },
+            { n: '30', em: '', l: 'Judges' },
             { n: '5', em: '', l: 'Tracks' },
-            { n: '65', em: '+', l: 'Participants' },
+            { n: '65', em: '+', l: 'Hackers' },
           ].map((stat, i) => (
             <motion.div 
               key={stat.l}
@@ -235,7 +235,7 @@ export default function Hero() {
               initial={{ opacity: 0, scale: 0.5 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ delay: 1.1 + i * 0.1, duration: 0.5 }}
-              whileHover={{ scale: 1.05 }}
+              whileHover={{ scale: 1.05, y: -2 }}
             >
               <span className="stat-n">{stat.n}<em>{stat.em}</em></span>
               <span className="stat-l">{stat.l}</span>
@@ -255,11 +255,11 @@ export default function Hero() {
               href={REGISTER_URL} 
               target="_blank" 
               rel="noopener noreferrer" 
-              className="btn-fill"
+              className="btn-fill btn-glow liquid-btn"
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
             >
-              <TextScramble text="Register on Devpost →" trigger="hover" />
+              <span><TextScramble text="Register Now →" trigger="hover" /></span>
             </motion.a>
           </MagneticButton>
           <MagneticButton strength={0.15}>
@@ -279,7 +279,7 @@ export default function Hero() {
 
       {/* Scroll Indicator */}
       <motion.div
-        className="scroll-indicator"
+        className="scroll-indicator float-animation"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 2, duration: 0.8 }}

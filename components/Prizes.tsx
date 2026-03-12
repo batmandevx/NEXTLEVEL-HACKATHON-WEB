@@ -8,42 +8,39 @@ const REGISTER_URL = 'https://nextlevelhackathon.devpost.com/';
 
 const prizes = [
   {
-    rank: 'Grand Prize',
-    emoji: '🥇',
+    rank: '🥇 Grand Prize',
     place: '1st Place',
     amount: '$3,500',
     desc: 'Best overall: innovation, technical execution, UX, and impact. Includes exclusive swag, global recognition, and internship opportunities.',
-    cls: 'p-gold',
+    cls: 'p-gold gradient-border',
     color: '#ffb547',
     delay: 0,
   },
   {
-    rank: 'Runner Up',
-    emoji: '🥈',
+    rank: '🥈 Runner Up',
     place: '2nd Place',
     amount: '$1,999',
     desc: 'Outstanding technical complexity and strong real-world impact potential. Includes internship opportunities and career mentorship.',
-    cls: 'p-silver',
+    cls: 'p-silver glass-card',
     color: '#b0b8c8',
     delay: 0.2,
   },
   {
-    rank: 'Third Place',
-    emoji: '🥉',
+    rank: '🥉 Third Place',
     place: '3rd Place',
     amount: '$1,502',
     desc: 'Creative ideas, solid implementation, and excellent communication. Includes internship opportunities and professional networking.',
-    cls: 'p-bronze',
+    cls: 'p-bronze glass-card',
     color: '#b87333',
     delay: 0.4,
   },
 ];
 
 const extras = [
-  { ico: '🎓', title: 'Mentorship & Internships', desc: 'Direct access to industry leaders, startup founders, and senior engineers post-event.' },
-  { ico: '🤝', title: 'Collaboration Invites', desc: 'Top teams may be invited to collaborate with sponsor organizations on real products.' },
-  { ico: '📣', title: 'Community Recognition', desc: 'Post-event showcase, social amplification, and developer spotlights.' },
-  { ico: '📜', title: 'Certificates of Excellence', desc: 'Issued to all finalists and track winners with public verification.' },
+  { ico: '🎓', title: 'Internships', desc: 'Direct access to industry leaders and senior engineers post-event.' },
+  { ico: '🤝', title: 'Collaborations', desc: 'Top teams may collaborate with sponsor organizations on real products.' },
+  { ico: '📣', title: 'Recognition', desc: 'Post-event showcase, social amplification, and developer spotlights.' },
+  { ico: '📜', title: 'Certificates', desc: 'Issued to all finalists and track winners with public verification.' },
 ];
 
 export default function Prizes() {
@@ -88,29 +85,22 @@ export default function Prizes() {
                   }}
                 />
                 <div className="p-rank">{prize.rank}</div>
-                <motion.span 
-                  className="p-emoji"
-                  animate={{ y: [0, -5, 0] }}
-                  transition={{ duration: 2, repeat: Infinity, delay: i * 0.3 }}
-                >
-                  {prize.emoji}
-                </motion.span>
-                <div className="p-place">{prize.place}</div>
                 <motion.div 
                   className="p-amount"
                   initial={{ scale: 0.5, opacity: 0 }}
                   whileInView={{ scale: 1, opacity: 1 }}
                   viewport={{ once: true }}
                   transition={{ delay: prize.delay + 0.3, duration: 0.5, type: 'spring' }}
-                  style={{ color: prize.color }}
+                  style={{ color: prize.color, textShadow: `0 0 30px ${prize.color}40` }}
                 >
                   {prize.amount}
                 </motion.div>
+                <div className="p-place">{prize.place}</div>
                 <div className="p-desc">{prize.desc}</div>
                 
                 {/* Animated shine effect */}
                 <motion.div
-                  className="prize-shine"
+                  className="prize-shine shimmer"
                   animate={{ x: ['-100%', '200%'] }}
                   transition={{ duration: 3, repeat: Infinity, repeatDelay: 2 }}
                 />
@@ -136,14 +126,15 @@ export default function Prizes() {
           {extras.map((extra, i) => (
             <motion.div
               key={extra.title}
-              className="px"
+              className="px glass-card"
               variants={{
                 hidden: { opacity: 0, y: 20 },
                 visible: { opacity: 1, y: 0 },
               }}
               whileHover={{ 
                 scale: 1.02, 
-                backgroundColor: 'var(--lift)',
+                y: -5,
+                boxShadow: '0 20px 40px rgba(0,0,0,0.3)',
                 transition: { duration: 0.2 }
               }}
             >
@@ -162,23 +153,23 @@ export default function Prizes() {
 
         {/* API Strip */}
         <motion.div 
-          className="api-strip"
+          className="api-strip glass-card"
           initial={{ opacity: 0, x: -30 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          whileHover={{ scale: 1.01 }}
+          whileHover={{ scale: 1.01, boxShadow: '0 0 40px rgba(255,181,71,0.2)' }}
         >
           <div>
-            <div className="api-t">🎁 Bonus: 200 Free AI API Units from Perfect Corp</div>
-            <div className="api-d">All participants receive 200 free API units (valued at US$49.99) — Text-to-Image, background removal, AR try-on, skincare analysis APIs and more. Valid through March 2026.</div>
+            <div className="api-t">🎁 Bonus: 200 Free AI API Units</div>
+            <div className="api-d">All participants receive 200 free API units (valued at US$49.99) — Text-to-Image, background removal, AR try-on, skincare analysis APIs and more.</div>
           </div>
           <motion.a 
             href="https://yce.perfectcorp.com/?affiliate=Hackathon2026" 
             target="_blank" 
             rel="noopener noreferrer" 
-            className="btn-amber"
-            whileHover={{ scale: 1.05, boxShadow: '0 0 40px rgba(255, 181, 71, 0.5)' }}
+            className="btn-amber btn-glow"
+            whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
             Claim Free Units →
@@ -187,7 +178,7 @@ export default function Prizes() {
 
         {/* Sponsors */}
         <motion.div 
-          className="sponsors-strip"
+          className="sponsors-strip glass-card"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -197,14 +188,14 @@ export default function Prizes() {
           <div className="sponsors-logos">
             <motion.span 
               className="sponsor-name"
-              whileHover={{ scale: 1.1, color: 'var(--teal)' }}
+              whileHover={{ scale: 1.1, color: 'var(--teal)', textShadow: '0 0 20px var(--teal)' }}
             >
               NordVPN
             </motion.span>
             <span className="sponsor-divider">·</span>
             <motion.span 
               className="sponsor-name"
-              whileHover={{ scale: 1.1, color: 'var(--amber)' }}
+              whileHover={{ scale: 1.1, color: 'var(--amber)', textShadow: '0 0 20px var(--amber)' }}
             >
               Major League Hacking
             </motion.span>

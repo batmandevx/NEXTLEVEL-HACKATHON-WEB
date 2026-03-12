@@ -5,11 +5,11 @@ import TiltCard from './TiltCard';
 import TextScramble from './TextScramble';
 
 const tracks = [
-  { n:'01', ico:'🤖', name:'AI / ML', desc:'Intelligent systems, LLM applications, computer vision, autonomous agents, or breakthrough ML architectures.', badge:'Machine Learning', cls:'t1', color: '#00e8d6' },
-  { n:'02', ico:'☁️', name:'Cloud Infrastructure', desc:'Scalable, resilient cloud-native systems, DevOps pipelines, or cutting-edge edge computing solutions.', badge:'Cloud Native', cls:'t2', color: '#9b6dff' },
-  { n:'03', ico:'📊', name:'Scalable Data Systems', desc:'High-throughput data platforms, real-time analytics engines, or next-gen data pipelines.', badge:'Data Engineering', cls:'t3', color: '#ffb547' },
-  { n:'04', ico:'🔗', name:'Web3 & Blockchain', desc:'Decentralized protocols, smart contract platforms, DeFi applications, or on-chain governance.', badge:'Decentralized', cls:'t4', color: '#ff5f57' },
-  { n:'05', ico:'🔐', name:'Cybersecurity', desc:'Tools, frameworks, or systems that detect, prevent, or respond to modern security threats at scale.', badge:'Security', cls:'t5', color: '#00e5a0' },
+  { n:'01', ico:'🤖', name:'AI / ML', desc:'Intelligent systems, LLM applications, computer vision, autonomous agents, and breakthrough ML architectures.', badge:'Machine Learning', cls:'t1', color: '#00e8d6' },
+  { n:'02', ico:'☁️', name:'Cloud', desc:'Scalable, resilient cloud-native systems, DevOps pipelines, and cutting-edge edge computing solutions.', badge:'Cloud Native', cls:'t2', color: '#9b6dff' },
+  { n:'03', ico:'📊', name:'Data', desc:'High-throughput data platforms, real-time analytics engines, and next-gen data pipelines.', badge:'Data Engineering', cls:'t3', color: '#ffb547' },
+  { n:'04', ico:'🔗', name:'Web3', desc:'Decentralized protocols, smart contract platforms, DeFi applications, and on-chain governance.', badge:'Blockchain', cls:'t4', color: '#ff5f57' },
+  { n:'05', ico:'🔐', name:'Security', desc:'Tools, frameworks, and systems that detect, prevent, or respond to modern security threats at scale.', badge:'Cybersecurity', cls:'t5', color: '#00e5a0' },
 ];
 
 export default function Tracks() {
@@ -63,7 +63,7 @@ export default function Tracks() {
         {tracks.map((t) => (
           <motion.div key={t.n} variants={itemVariants}>
             <TiltCard
-              className={`track ${t.cls}`}
+              className={`track ${t.cls} glass-card`}
               tiltAmount={12}
               glowColor={`${t.color}40`}
               glowIntensity={0.6}
@@ -87,7 +87,7 @@ export default function Tracks() {
                   style={{ 
                     borderColor: t.color,
                     color: t.color,
-                    boxShadow: `0 0 20px ${t.color}20`,
+                    boxShadow: `0 0 20px ${t.color}30`,
                   }}
                 >
                   {t.badge}
