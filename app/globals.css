@@ -853,6 +853,33 @@ section { position: relative; z-index: 1; padding: 120px 72px; }
 .j-org  { font-size: 11px; color: var(--sub); line-height: 1.4; }
 .j-flag { font-size: 10px; font-family: 'DM Mono',monospace; color: var(--dim); margin-top: 10px; letter-spacing: 1px; }
 
+/* 3D Avatar Styles */
+.avatar-3d-wrapper {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.avatar-3d-inner {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.avatar-shine {
+  pointer-events: none;
+}
+
+.j-avatar-wrapper {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
 /* Judge LinkedIn Button */
 .j-linkedin {
   display: inline-flex;

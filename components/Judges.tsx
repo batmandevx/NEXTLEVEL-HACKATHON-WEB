@@ -3,37 +3,38 @@
 import { motion } from 'framer-motion';
 import TiltCard from './TiltCard';
 import TextScramble from './TextScramble';
+import Avatar3D from './Avatar3D';
 
 const judges = [
-  { id:'j01', initials:'VK', name:'Venkata Krishna Bharadwaj Parasaram', role:'Senior Project Manager', org:'Thermo Fisher Scientific', flag:'🇺🇸 USA', linkedin:'https://www.linkedin.com/in/' },
-  { id:'j02', initials:'LK', name:'Lokesh Karanam', role:'Staff Software Engineer', org:'RR Donnelley', flag:'🌍 International', linkedin:'https://www.linkedin.com/in/' },
-  { id:'j03', initials:'SM', name:'Siva Kumar Mudiyanur', role:'Senior BI Engineer', org:'Amazon', flag:'🌍 International', linkedin:'https://www.linkedin.com/in/' },
-  { id:'j04', initials:'VM', name:'Varun Misra', role:'Director, Technical Architect', org:'Salesforce', flag:'🌍 International', linkedin:'https://www.linkedin.com/in/' },
-  { id:'j05', initials:'JY', name:'Jyoti Yadav', role:'Sr. Data Science Manager', org:'Atlassian', flag:'🌍 International', linkedin:'https://www.linkedin.com/in/' },
-  { id:'j06', initials:'VL', name:'Viacheslav Latypov', role:'Sr. Project Manager, PMO Lead', org:'Hercules Dynamics', flag:'🌍 International', linkedin:'https://www.linkedin.com/in/' },
-  { id:'j07', initials:'TC', name:'Talha Cagatay ISIK', role:'Senior Integration Engineer', org:'Trilitech', flag:'🌍 International', linkedin:'https://www.linkedin.com/in/' },
-  { id:'j08', initials:'ST', name:'Shishir Tewari', role:'Senior Manager, Data Engineering', org:'Procore Technologies', flag:'🌍 International', linkedin:'https://www.linkedin.com/in/' },
-  { id:'j09', initials:'SN', name:'Sneha Malshetti', role:'Senior Security Engineer', org:'Ethos', flag:'🌍 International', linkedin:'https://www.linkedin.com/in/' },
-  { id:'j10', initials:'DJ', name:'Dinesh Jagadeesan', role:'Engineering Manager', org:'Meta Platforms', flag:'🌍 International', linkedin:'https://www.linkedin.com/in/' },
-  { id:'j11', initials:'SK', name:'Srikanth Kavuri', role:'Senior SDET Engineer', org:'SCDHHS', flag:'🇺🇸 USA', linkedin:'https://www.linkedin.com/in/' },
-  { id:'j12', initials:'JM', name:'Jeet Nishit Mehta', role:'Software Engineer', org:'Netflix', flag:'🌍 International', linkedin:'https://www.linkedin.com/in/' },
-  { id:'j13', initials:'DM', name:'Deepanjan Mukherjee', role:'Director of Engineering', org:'athenahealth Inc.', flag:'🇺🇸 USA', linkedin:'https://www.linkedin.com/in/' },
-  { id:'j14', initials:'AJ', name:'Akanksha Jangir', role:'Lead Data Engineer', org:'SymphonyAI', flag:'🌍 International', linkedin:'https://www.linkedin.com/in/' },
-  { id:'j15', initials:'AG', name:'Ashish Ghatge', role:'Robotics Software Engineer', org:'Zupt, LLC', flag:'🌍 International', linkedin:'https://www.linkedin.com/in/' },
-  { id:'j16', initials:'IN', name:'Ilia Nagovitsyn', role:'Quantitative Researcher', org:'U.S. Energy Trading Firm', flag:'🇺🇸 USA', linkedin:'https://www.linkedin.com/in/' },
-  { id:'j17', initials:'SP', name:'Santosh Ramrao Patil', role:'Senior Product Manager', org:'Cisco Systems', flag:'🌍 International', linkedin:'https://www.linkedin.com/in/' },
-  { id:'j18', initials:'PD', name:'Pearce Dolan', role:'Head of Product', org:'Deel', flag:'🌍 International', linkedin:'https://www.linkedin.com/in/' },
-  { id:'j19', initials:'SR', name:'Suresh Kumar Thulasi Ram', role:'Senior AI & Cloud Professional', org:'Independent', flag:'🌍 International', linkedin:'https://www.linkedin.com/in/' },
-  { id:'j20', initials:'AK', name:'Atul Khanna', role:'Enterprise Support Manager', org:'AWS', flag:'🌍 International', linkedin:'https://www.linkedin.com/in/' },
-  { id:'j21', initials:'RA', name:'Ramandeep Aulakh', role:'Sr. Director of Product', org:'Visa', flag:'🇺🇸 USA', linkedin:'https://www.linkedin.com/in/' },
-  { id:'j22', initials:'SL', name:'Shri Lakshmi Rajagopal', role:'Sr. Automation QA Engineer', org:'Tech Industry', flag:'🌍 International', linkedin:'https://www.linkedin.com/in/' },
-  { id:'j23', initials:'SH', name:'SriHarsha anand Pushkala', role:'Director, Fraud Analytics', org:'Atlanticus', flag:'🇺🇸 USA', linkedin:'https://www.linkedin.com/in/' },
-  { id:'j24', initials:'JP', name:'Juan Pablo Peral Belmont', role:'CEO & Founder', org:'Nerdmask', flag:'🌍 International', linkedin:'https://www.linkedin.com/in/' },
-  { id:'j25', initials:'SK', name:'Sameer Kankute', role:'Founding Backend Engineer', org:'Startup', flag:'🌍 International', linkedin:'https://www.linkedin.com/in/' },
-  { id:'j26', initials:'HJ', name:'Hao Jia', role:'Founder & CEO & CTO', org:'SynMind Inc', flag:'🌍 International', linkedin:'https://www.linkedin.com/in/' },
-  { id:'j27', initials:'VJ', name:'Vidit Jain', role:'Data Scientist', org:'Credit One Bank', flag:'🇺🇸 USA', linkedin:'https://www.linkedin.com/in/' },
-  { id:'j28', initials:'SS', name:'Sanjoy Sarkar', role:'Senior Vice President', org:'First Citizens Bank', flag:'🇺🇸 USA', linkedin:'https://www.linkedin.com/in/' },
-  { id:'j29', initials:'MK', name:'Manisha Konda', role:'Senior Analyst', org:'Walgreens', flag:'🇺🇸 USA', linkedin:'https://www.linkedin.com/in/' },
+  { id:'j01', name:'Venkata Krishna Bharadwaj Parasaram', role:'Senior Project Manager', org:'Thermo Fisher Scientific', flag:'🇺🇸 USA', linkedin:'https://www.linkedin.com/in/venkata-k-bharadwaj-parasaram/', colors:['#00e8d6', '#0096a0', '#00b8ab', '#38bdf8', '#00e5a0'] },
+  { id:'j02', name:'Lokesh Karanam', role:'Staff Software Engineer', org:'RR Donnelley', flag:'🌍 International', linkedin:'https://www.linkedin.com/in/lokesh-karanam/', colors:['#9b6dff', '#6840c0', '#8b5cf6', '#a78bfa', '#c4b5fd'] },
+  { id:'j03', name:'Siva Kumar Mudiyanur', role:'Senior BI Engineer', org:'Amazon', flag:'🌍 International', linkedin:'https://www.linkedin.com/in/siva-mudiyanur/', colors:['#00e5a0', '#009e6e', '#10b981', '#34d399', '#6ee7b7'] },
+  { id:'j04', name:'Varun Misra', role:'Director Technical Architect', org:'Salesforce', flag:'🌍 International', linkedin:'https://linkedin.com/in/varun-misra-33048915', colors:['#ff5f57', '#c0341a', '#ef4444', '#f87171', '#fca5a5'] },
+  { id:'j05', name:'Jyoti Yadav', role:'Sr Data Science Manager', org:'Atlassian', flag:'🌍 International', linkedin:'https://www.linkedin.com/in/jyotiyadav/', colors:['#ffb547', '#c07800', '#f59e0b', '#fbbf24', '#fcd34d'] },
+  { id:'j06', name:'Viacheslav Latypov', role:'Senior Project Manager, PMO lead', org:'Hercules Dynamics', flag:'🌍 International', linkedin:'https://www.linkedin.com/in/v-latypov/', colors:['#38bdf8', '#1a6ea0', '#0ea5e9', '#7dd3fc', '#bae6fd'] },
+  { id:'j07', name:'Talha Cagatay ISIK', role:'Senior Integration Engineer', org:'Trilitech', flag:'🌍 International', linkedin:'https://www.linkedin.com/in/talhaisik/', colors:['#f472b6', '#b03080', '#ec4899', '#f9a8d4', '#fbcfe8'] },
+  { id:'j08', name:'Shishir Tewari', role:'Senior Manager, Data Engineering', org:'Procore Technologies', flag:'🌍 International', linkedin:'https://www.linkedin.com/in/shishir-tewari-36113514/', colors:['#00e8d6', '#9b6dff', '#00e5a0', '#ffb547', '#ff5f57'] },
+  { id:'j09', name:'Sneha Malshetti', role:'Senior Security Engineer', org:'Ethos', flag:'🌍 International', linkedin:'https://LinkedIn.com/in/sneha-malshetti', colors:['#ffb547', '#ff5f57', '#f59e0b', '#ef4444', '#fbbf24'] },
+  { id:'j10', name:'Dinesh Jagadeesan', role:'Engineering Manager', org:'Meta Platforms', flag:'🌍 International', linkedin:'https://www.linkedin.com/in/dineshjagadeesan/', colors:['#9b6dff', '#38bdf8', '#8b5cf6', '#0ea5e9', '#a78bfa'] },
+  { id:'j11', name:'Srikanth Kavuri', role:'Senior SDET Engineer', org:'SCDHHS', flag:'🇺🇸 USA', linkedin:'https://www.linkedin.com/in/srikanth-kavuri-0937b9132/', colors:['#00e5a0', '#38bdf8', '#10b981', '#0ea5e9', '#34d399'] },
+  { id:'j12', name:'Jeet Nishit Mehta', role:'Software Engineer', org:'Netflix', flag:'🌍 International', linkedin:'https://www.linkedin.com/in/jeetm35/', colors:['#ff5f57', '#f472b6', '#ef4444', '#ec4899', '#f87171'] },
+  { id:'j13', name:'Deepanjan Mukherjee', role:'Director of Engineering', org:'athenahealth Inc.', flag:'🇺🇸 USA', linkedin:'https://www.linkedin.com/in/deepanjanmukherjee/', colors:['#38bdf8', '#00e5a0', '#0ea5e9', '#10b981', '#7dd3fc'] },
+  { id:'j14', name:'Akanksha Jangir', role:'Lead Data Engineer', org:'SymphonyAI', flag:'🌍 International', linkedin:'https://www.linkedin.com/in/akankshajangir', colors:['#ffb547', '#f472b6', '#f59e0b', '#ec4899', '#fbbf24'] },
+  { id:'j15', name:'Ashish Ghatge', role:'Robotics Software Engineer', org:'Zupt, LLC', flag:'🌍 International', linkedin:'https://linkedin.com/in/ashish-ghatge', colors:['#00e8d6', '#ffb547', '#00b8ab', '#f59e0b', '#38bdf8'] },
+  { id:'j16', name:'Ilia Nagovitsyn', role:'Quantitative Researcher', org:'U.S. Energy Trading Firm', flag:'🇺🇸 USA', linkedin:'https://www.linkedin.com/in/ilya-nagovitsyn', colors:['#9b6dff', '#00e8d6', '#8b5cf6', '#00e8d6', '#c4b5fd'] },
+  { id:'j17', name:'Santosh Ramrao Patil', role:'Senior Product Manager', org:'Cisco Systems', flag:'🌍 International', linkedin:'https://www.linkedin.com/in/2santoshpatil/', colors:['#ff5f57', '#00e5a0', '#ef4444', '#10b981', '#f87171'] },
+  { id:'j18', name:'Pearce Dolan', role:'Head of Product', org:'Deel', flag:'🌍 International', linkedin:'https://www.linkedin.com/in/pearce-dolan-3061aa12a/', colors:['#38bdf8', '#9b6dff', '#0ea5e9', '#8b5cf6', '#7dd3fc'] },
+  { id:'j19', name:'Suresh Kumar Thulasi Ram', role:'Senior AI & Cloud Professional', org:'Independent', flag:'🌍 International', linkedin:'https://www.linkedin.com/in/sureshkumarthulasiram-ai', colors:['#f472b6', '#ffb547', '#ec4899', '#f59e0b', '#f9a8d4'] },
+  { id:'j20', name:'Atul Khanna', role:'Enterprise Support Manager', org:'AWS', flag:'🌍 International', linkedin:'https://www.linkedin.com/in/atul-khanna-34a2b142/', colors:['#00e8d6', '#ff5f57', '#00b8ab', '#ef4444', '#38bdf8'] },
+  { id:'j21', name:'Ramandeep Aulakh', role:'Sr. Director of Product', org:'Visa', flag:'🇺🇸 USA', linkedin:'https://www.linkedin.com/in/raman-aulakh/', colors:['#9b6dff', '#ffb547', '#8b5cf6', '#f59e0b', '#a78bfa'] },
+  { id:'j22', name:'Shri Lakshmi Rajagopal', role:'Sr. Automation QA Engineer', org:'Tech Industry', flag:'🌍 International', linkedin:'', colors:['#00e5a0', '#f472b6', '#10b981', '#ec4899', '#34d399'] },
+  { id:'j23', name:'SriHarsha anand Pushkala', role:'Director, Fraud Analytics', org:'Atlanticus', flag:'🇺🇸 USA', linkedin:'https://LinkedIn.com/sriharshaanandpushkala', colors:['#ffb547', '#00e8d6', '#f59e0b', '#00e8d6', '#fbbf24'] },
+  { id:'j24', name:'Juan Pablo Peral Belmont', role:'CEO & Founder', org:'Nerdmask', flag:'🌍 International', linkedin:'https://www.linkedin.com/in/jppbelmont/', colors:['#ff5f57', '#9b6dff', '#ef4444', '#8b5cf6', '#f87171'] },
+  { id:'j25', name:'Sameer Kankute', role:'Founding Backend Engineer', org:'Startup', flag:'🌍 International', linkedin:'https://www.linkedin.com/in/sameer-kankute/', colors:['#38bdf8', '#00e8d6', '#0ea5e9', '#00e8d6', '#7dd3fc'] },
+  { id:'j26', name:'Hao Jia', role:'Founder & CEO & CTO', org:'SynMind Inc', flag:'🌍 International', linkedin:'https://www.linkedin.com/in/meethaojia/', colors:['#00e5a0', '#ffb547', '#10b981', '#f59e0b', '#34d399'] },
+  { id:'j27', name:'Vidit Jain', role:'Data Scientist', org:'Credit One Bank', flag:'🇺🇸 USA', linkedin:'https://www.linkedin.com/in/viditjain92', colors:['#9b6dff', '#ff5f57', '#8b5cf6', '#ef4444', '#c4b5fd'] },
+  { id:'j28', name:'Sanjoy Sarkar', role:'Senior Vice President', org:'First Citizens Bank', flag:'🇺🇸 USA', linkedin:'https://www.linkedin.com/in/iamsanjoysarkar/', colors:['#f472b6', '#38bdf8', '#ec4899', '#0ea5e9', '#f9a8d4'] },
+  { id:'j29', name:'Manisha Konda', role:'Senior Analyst', org:'Walgreens', flag:'🇺🇸 USA', linkedin:'https://www.linkedin.com/in/manisha-konda-a291321b2', colors:['#00e8d6', '#00e5a0', '#00b8ab', '#10b981', '#38bdf8'] },
 ];
 
 const companyBadge: Record<string,string> = {
@@ -68,19 +69,6 @@ const companyBadge: Record<string,string> = {
   'Walgreens': 'Walgreens',
 };
 
-const judgeColors: Record<string, {ja: string, jb: string}> = {
-  j01: {ja:'#00e8d6', jb:'#0096a0'}, j02: {ja:'#9b6dff', jb:'#6840c0'}, j03: {ja:'#00e5a0', jb:'#009e6e'},
-  j04: {ja:'#ff5f57', jb:'#c0341a'}, j05: {ja:'#ffb547', jb:'#c07800'}, j06: {ja:'#38bdf8', jb:'#1a6ea0'},
-  j07: {ja:'#f472b6', jb:'#b03080'}, j08: {ja:'#00e8d6', jb:'#9b6dff'}, j09: {ja:'#ffb547', jb:'#ff5f57'},
-  j10: {ja:'#9b6dff', jb:'#38bdf8'}, j11: {ja:'#00e5a0', jb:'#38bdf8'}, j12: {ja:'#ff5f57', jb:'#f472b6'},
-  j13: {ja:'#38bdf8', jb:'#00e5a0'}, j14: {ja:'#ffb547', jb:'#f472b6'}, j15: {ja:'#00e8d6', jb:'#ffb547'},
-  j16: {ja:'#9b6dff', jb:'#00e8d6'}, j17: {ja:'#ff5f57', jb:'#00e5a0'}, j18: {ja:'#38bdf8', jb:'#9b6dff'},
-  j19: {ja:'#f472b6', jb:'#ffb547'}, j20: {ja:'#00e5a0', jb:'#ff5f57'}, j21: {ja:'#00e8d6', jb:'#38bdf8'},
-  j22: {ja:'#9b6dff', jb:'#f472b6'}, j23: {ja:'#ffb547', jb:'#00e8d6'}, j24: {ja:'#ff5f57', jb:'#9b6dff'},
-  j25: {ja:'#38bdf8', jb:'#00e8d6'}, j26: {ja:'#00e5a0', jb:'#ffb547'}, j27: {ja:'#9b6dff', jb:'#ff5f57'},
-  j28: {ja:'#f472b6', jb:'#38bdf8'}, j29: {ja:'#00e8d6', jb:'#00e5a0'},
-};
-
 // LinkedIn Icon Component
 const LinkedInIcon = () => (
   <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
@@ -98,85 +86,49 @@ export default function Judges() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          style={{ marginBottom: '60px' }}
         >
-          <motion.div 
-            className="sec-eye"
-            whileHover={{ scale: 1.05, textShadow: '0 0 8px var(--teal)' }}
-            style={{ cursor: 'pointer' }}
-          >
-            // expert panel
-          </motion.div>
-
-          <motion.div
-            initial={{ opacity: 0, scale: 0.8 }}
-            whileInView={{ opacity: 1, scale: 1 }}
-            viewport={{ once: true }}
-            transition={{ delay: 0.3, duration: 0.5, type: 'spring', bounce: 0.5 }}
-            whileHover={{ scale: 1.05, boxShadow: '0 0 30px rgba(255,181,71,0.3)' }}
-            style={{ 
-              display: 'inline-block', 
-              padding: '6px 16px', 
-              borderRadius: '30px', 
-              background: 'rgba(255,181,71,0.1)', 
-              border: '1px solid rgba(255,181,71,0.3)',
-              color: 'var(--amber)',
-              fontFamily: '"DM Mono", monospace',
-              fontSize: '0.85rem',
-              letterSpacing: '1px',
-              textTransform: 'uppercase',
-              marginBottom: '1.5rem',
-              boxShadow: '0 0 20px rgba(255,181,71,0.15)',
-              cursor: 'default'
-            }}
-          >
-            🔥 Top 11% Selection Rate Globally
-          </motion.div>
-
+          <div className="sec-eye">// expert panel</div>
           <h2 className="sec-h">
-            <TextScramble text="Global Expert Judges" trigger="inView" />
+            <TextScramble text="29 Expert Judges" trigger="inView" />
           </h2>
-          <p className="sec-body" style={{ maxWidth: '800px', margin: '0 auto', fontSize: '1.1rem' }}>
-            We have carefully selected our judges globally through a thorough and rigorous selection process, resulting in an exclusive <strong>11% selection rate</strong>. 
-            <br/><br/>
-            These senior engineers, directors, VPs, and founders from the world&apos;s top tech companies are here to deliver real, structured, and actionable feedback — not just scores.
-          </p>
+          <p className="sec-body">Senior engineers, directors, VPs, and industry leaders from the world&apos;s top companies delivering real, structured feedback — not just scores.</p>
         </motion.div>
 
         <motion.div 
           className="j-grid"
           initial="hidden"
           whileInView="visible"
-          viewport={{ once: true, amount: 0.05 }}
+          viewport={{ once: true, amount: 0.1 }}
           variants={{
             hidden: { opacity: 0 },
             visible: {
               opacity: 1,
-              transition: { staggerChildren: 0.04 },
+              transition: { staggerChildren: 0.02 },
             },
           }}
         >
           {judges.map((j) => {
-            const colors = judgeColors[j.id];
+            const primaryColor = j.colors[0];
+            const secondaryColor = j.colors[1];
+            
             return (
               <motion.div
                 key={j.id}
                 variants={{
-                  hidden: { opacity: 0, y: 40, scale: 0.85, rotateX: -10 },
+                  hidden: { opacity: 0, y: 30, scale: 0.9 },
                   visible: { 
                     opacity: 1, 
                     y: 0, 
                     scale: 1,
-                    rotateX: 0,
-                    transition: { duration: 0.6, type: 'spring', bounce: 0.4 }
+                    transition: { duration: 0.5, ease: [0.23, 1, 0.32, 1] }
                   },
                 }}
               >
                 <TiltCard
                   className={`jc ${j.id}`}
-                  tiltAmount={15}
-                  glowColor={`${colors.ja}50`}
-                  glowIntensity={0.6}
+                  tiltAmount={8}
+                  glowColor={`${primaryColor}30`}
+                  glowIntensity={0.4}
                 >
                   {/* Company Badge */}
                   <motion.span 
@@ -188,23 +140,23 @@ export default function Judges() {
                     {companyBadge[j.org] ?? j.org}
                   </motion.span>
                   
-                  {/* Avatar with Animated Ring */}
-                  <motion.div 
-                    className={`j-av ${j.id}`}
-                    style={{
-                      background: `linear-gradient(135deg, ${colors.ja}, ${colors.jb})`,
-                      boxShadow: `0 0 30px ${colors.ja}40`,
-                    }}
-                    whileHover={{ 
-                      scale: 1.1,
-                      rotate: [0, -5, 5, 0],
-                      boxShadow: `0 0 50px ${colors.ja}60`,
-                    }}
+                  {/* 3D Avatar */}
+                  <motion.div
+                    className="j-avatar-wrapper"
+                    whileHover={{ scale: 1.05 }}
                     transition={{ duration: 0.3 }}
                   >
-                    {j.initials}
+                    <Avatar3D 
+                      name={j.name}
+                      size={80}
+                      color1={j.colors[0]}
+                      color2={j.colors[1]}
+                      color3={j.colors[2]}
+                      color4={j.colors[3]}
+                      color5={j.colors[4]}
+                    />
                     
-                    {/* Animated ring */}
+                    {/* Animated ring around avatar */}
                     <motion.div
                       className="j-av-ring"
                       animate={{ 
@@ -215,41 +167,49 @@ export default function Judges() {
                         rotate: { duration: 10, repeat: Infinity, ease: 'linear' },
                         scale: { duration: 2, repeat: Infinity, ease: 'easeInOut' }
                       }}
-                      style={{ border: `2px solid ${colors.ja}` }}
+                      style={{ 
+                        border: `2px solid ${primaryColor}`,
+                        position: 'absolute',
+                        inset: '-6px',
+                        borderRadius: '50%',
+                        opacity: 0.5,
+                      }}
                     />
                   </motion.div>
                   
                   {/* Judge Info */}
                   <motion.div 
                     className="j-name"
-                    whileHover={{ color: colors.ja }}
+                    whileHover={{ color: primaryColor }}
                   >
                     {j.name}
                   </motion.div>
-                  <div className="j-role" style={{ color: colors.ja }}>{j.role}</div>
+                  <div className="j-role" style={{ color: primaryColor }}>{j.role}</div>
                   <div className="j-org">{j.org}</div>
                   <div className="j-flag">{j.flag}</div>
                   
                   {/* LinkedIn Link */}
-                  <motion.a
-                    href={j.linkedin}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="j-linkedin"
-                    style={{ 
-                      color: colors.ja,
-                      borderColor: colors.ja,
-                    }}
-                    whileHover={{ 
-                      scale: 1.05,
-                      backgroundColor: colors.ja,
-                      color: '#000',
-                    }}
-                    whileTap={{ scale: 0.95 }}
-                  >
-                    <LinkedInIcon />
-                    <span>Connect</span>
-                  </motion.a>
+                  {j.linkedin && (
+                    <motion.a
+                      href={j.linkedin}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="j-linkedin"
+                      style={{ 
+                        color: primaryColor,
+                        borderColor: primaryColor,
+                      }}
+                      whileHover={{ 
+                        scale: 1.05,
+                        backgroundColor: primaryColor,
+                        color: '#000',
+                      }}
+                      whileTap={{ scale: 0.95 }}
+                    >
+                      <LinkedInIcon />
+                      <span>Connect</span>
+                    </motion.a>
+                  )}
                 </TiltCard>
               </motion.div>
             );
