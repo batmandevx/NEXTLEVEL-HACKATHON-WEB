@@ -1,0 +1,272 @@
+[
+  {
+    "id": "j01",
+    "initials": "VP",
+    "name": "Venkata Krishna Bharadwaj Parasaram",
+    "linkedin": "https://www.linkedin.com/in/venkata-k-bharadwaj-parasaram/",
+    "email": "venkata.parasaram@ieee.org",
+    "role": "Senior Project Manager",
+    "org": "Thermo Fisher Scientific"
+  },
+  {
+    "id": "j02",
+    "initials": "LK",
+    "name": "Lokesh Karanam",
+    "linkedin": "https://www.linkedin.com/in/lokesh-karanam/",
+    "email": "lokeshkaranam3@gmail.com",
+    "role": "Staff Software Engineer",
+    "org": "RR Donnelley"
+  },
+  {
+    "id": "j03",
+    "initials": "SM",
+    "name": "Siva Kumar Mudiyanur",
+    "linkedin": "https://www.linkedin.com/in/siva-mudiyanur/",
+    "email": "msivakmr@gmail.com",
+    "role": "Senior Business Intelligence Engineer",
+    "org": "Amazon"
+  },
+  {
+    "id": "j04",
+    "initials": "VM",
+    "name": "Varun Misra",
+    "linkedin": "https://linkedin.com/in/varun-misra-33048915",
+    "email": "varun.misra00@gmail.com",
+    "role": "Director Technical Architect",
+    "org": "Salesforce Inc"
+  },
+  {
+    "id": "j05",
+    "initials": "JY",
+    "name": "Jyoti Yadav",
+    "linkedin": "https://www.linkedin.com/in/jyotiyadav/",
+    "email": "jyotiyadav2611@gmail.com",
+    "role": "Sr Data Science Manager",
+    "org": "Atlassian"
+  },
+  {
+    "id": "j06",
+    "initials": "VL",
+    "name": "Viacheslav Latypov",
+    "linkedin": "https://www.linkedin.com/in/v-latypov/",
+    "email": "latypovmail@proton.me",
+    "role": "Senior Project Manager, PMO lead",
+    "org": "Hercules Dynamics"
+  },
+  {
+    "id": "j07",
+    "initials": "TI",
+    "name": "Talha Cagatay ISIK",
+    "linkedin": "https://www.linkedin.com/in/talhaisik/",
+    "email": "isiktalhacagatay@gmail.com",
+    "role": "Senior Integration Engineer",
+    "org": ""
+  },
+  {
+    "id": "j08",
+    "initials": "ST",
+    "name": "Shishir Tewari",
+    "linkedin": "https://www.linkedin.com/in/shishir-tewari-36113514/",
+    "email": "tewarishishir@gmail.com",
+    "role": "Senior Manager, Data Engineering",
+    "org": "Procore Technologies"
+  },
+  {
+    "id": "j09",
+    "initials": "SM",
+    "name": "Sneha Malshetti",
+    "linkedin": "https://LinkedIn.com/in/sneha-malshetti",
+    "email": "sneha.malshetti@gmail.com",
+    "role": "Senior Security Engineer",
+    "org": "Ethos"
+  },
+  {
+    "id": "j10",
+    "initials": "DJ",
+    "name": "Dinesh Jagadeesan",
+    "linkedin": "https://www.linkedin.com/in/dineshjagadeesan/",
+    "email": "jdinesh86@gmail.com",
+    "role": "Engineering Manager",
+    "org": ""
+  },
+  {
+    "id": "j11",
+    "initials": "SK",
+    "name": "Srikanth Kavuri",
+    "linkedin": "https://www.linkedin.com/in/srikanth-kavuri-0937b9132/",
+    "email": "srikanth1539@gmail.com",
+    "role": "Senior Software Development Engineer Test",
+    "org": "SCDHHS"
+  },
+  {
+    "id": "j12",
+    "initials": "JM",
+    "name": "Jeet Nishit Mehta",
+    "linkedin": "https://www.linkedin.com/in/jeetm35/",
+    "email": "jeetm35@gmail.com",
+    "role": "Software Engineer",
+    "org": "Netflix"
+  },
+  {
+    "id": "j13",
+    "initials": "DM",
+    "name": "Deepanjan Mukherjee",
+    "linkedin": "https://www.linkedin.com/in/deepanjanmukherjee/",
+    "email": "deepanjan.mkje@gmail.com",
+    "role": "Director of Engineering",
+    "org": "athenahealth Inc."
+  },
+  {
+    "id": "j14",
+    "initials": "AJ",
+    "name": "Akanksha Jangir",
+    "linkedin": "https//www.linkedin.com/in/akankshajangir",
+    "email": "akjangir1208@gmail.com",
+    "role": "Lead Data Engineer",
+    "org": "SymphonyAI"
+  },
+  {
+    "id": "j15",
+    "initials": "AG",
+    "name": "Ashish Ghatge",
+    "linkedin": "https://linkedin.com/in/ashish-ghatge",
+    "email": "aghatge1@alumni.jh.edu",
+    "role": "Robotics Software Engineer - Localization and Perception",
+    "org": "Zupt, LLC"
+  },
+  {
+    "id": "j16",
+    "initials": "IN",
+    "name": "Ilia Nagovitsyn",
+    "linkedin": "https://www.linkedin.com/in/ilya-nagovitsyn",
+    "email": "ngvtsyn@gmail.com",
+    "role": "Quantitative Researcher",
+    "org": ""
+  },
+  {
+    "id": "j17",
+    "initials": "SP",
+    "name": "Santosh Ramrao Patil",
+    "linkedin": "https://www.linkedin.com/in/2santoshpatil/",
+    "email": "2santoshpatil@gmail.com",
+    "role": "Senior Product Manager",
+    "org": "Cisco Systems"
+  },
+  {
+    "id": "j18",
+    "initials": "PD",
+    "name": "Pearce Dolan",
+    "linkedin": "https://www.linkedin.com/in/pearce-dolan-3061aa12a/",
+    "email": "mail@pearcedolan.com",
+    "role": "Head of Product",
+    "org": "Deel"
+  },
+  {
+    "id": "j19",
+    "initials": "SR",
+    "name": "Suresh Kumar Thulasi Ram",
+    "linkedin": "https://www.linkedin.com/in/sureshkumarthulasiram-ai",
+    "email": "thulasiramsureshkumar@gmail.com",
+    "role": "Senior AI & Cloud Professional (Independent)| Hackathon Judge & Evaluator",
+    "org": "https://admnwizard.com"
+  },
+  {
+    "id": "j20",
+    "initials": "AK",
+    "name": "Atul Khanna",
+    "linkedin": "https://www.linkedin.com/in/atul-khanna-34a2b142/",
+    "email": "khanna_atul@hotmail.com",
+    "role": "Enterprise Support Manager",
+    "org": "AWS"
+  },
+  {
+    "id": "j21",
+    "initials": "RA",
+    "name": "Ramandeep Aulakh",
+    "linkedin": "https://www.linkedin.com/in/raman-aulakh/",
+    "email": "aulakh.raman1@gmail.com",
+    "role": "Sr. Director of Product",
+    "org": "Visa"
+  },
+  {
+    "id": "j22",
+    "initials": "RA",
+    "name": "Raman Aulakh",
+    "linkedin": "https://www.linkedin.com/in/raman-aulakh/",
+    "email": "rammi.aulakh26@gmail.com",
+    "role": "Sr. Director, Product Management",
+    "org": "Visa"
+  },
+  {
+    "id": "j23",
+    "initials": "SR",
+    "name": "Shri Lakshmi Rajagopal",
+    "linkedin": "",
+    "email": "Shrilakshmirajagopal@gmail.com",
+    "role": "Sr.Automation QA Engineer",
+    "org": ""
+  },
+  {
+    "id": "j24",
+    "initials": "SP",
+    "name": "SriHarsha anand Pushkala",
+    "linkedin": "https://LinkedIn.com/sriharshaanandpushkala",
+    "email": "sri.harsha132@gmail.com",
+    "role": "Director, Fraud Analytics",
+    "org": "Atlanticus"
+  },
+  {
+    "id": "j25",
+    "initials": "JB",
+    "name": "Juan Pablo Peral Belmont",
+    "linkedin": "https://www.linkedin.com/in/jppbelmont/",
+    "email": "juan@nerdmask.com",
+    "role": "CEO & Founder",
+    "org": "Nerdmask"
+  },
+  {
+    "id": "j26",
+    "initials": "SK",
+    "name": "Sameer Kankute",
+    "linkedin": "https://www.linkedin.com/in/sameer-kankute/",
+    "email": "iamkankute@gmail.com",
+    "role": "Founding Backend Engineer",
+    "org": ""
+  },
+  {
+    "id": "j27",
+    "initials": "HJ",
+    "name": "Hao Jia",
+    "linkedin": "https://www.linkedin.com/in/meethaojia/",
+    "email": "hao.jia@admitplus.ai",
+    "role": "Founder & CEO & CTO",
+    "org": "SynMind Inc"
+  },
+  {
+    "id": "j28",
+    "initials": "VJ",
+    "name": "Vidit Jain",
+    "linkedin": "https://Check out Vidit Jain’s profile on LinkedIn https://www.linkedin.com/in/viditjain92",
+    "email": "jain.vidit84@gmail.com",
+    "role": "Data Scientist",
+    "org": "Credit One Bank"
+  },
+  {
+    "id": "j29",
+    "initials": "SS",
+    "name": "Sanjoy Sarkar",
+    "linkedin": "https://www.linkedin.com/in/iamsanjoysarkar/",
+    "email": "emailsanjoys@gmail.com",
+    "role": "Senior Vice President, Senior Director",
+    "org": "First Citizens Bank"
+  },
+  {
+    "id": "j30",
+    "initials": "MK",
+    "name": "Manisha Konda",
+    "linkedin": "https://www.linkedin.com/in/manisha-konda-a291321b2",
+    "email": "manishakonda1999@gmail.com",
+    "role": "Senior Analyst",
+    "org": "Walgreens"
+  }
+]
