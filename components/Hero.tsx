@@ -4,6 +4,8 @@ import { useEffect, useState, useRef } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import TextScramble from './TextScramble';
 import MagneticButton from './MagneticButton';
+import AnimatedCounter from './AnimatedCounter';
+import GradientText from './GradientText';
 
 const REGISTER_URL = 'https://nextlevelhackathon.devpost.com/';
 const DEADLINE = new Date('2026-03-23T02:30:00+05:30');
@@ -186,7 +188,7 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.8, duration: 0.6 }}
         >
-          Build the next generation of AI, product innovation, and startup-ready solutions. Join global developers, designers, and founders to create impactful technology.
+          Build the next generation of AI, product innovation, and startup-ready solutions. Join <GradientText>500+ global developers</GradientText>, designers, and founders to create impactful technology.
         </motion.p>
 
         {/* Tags */}
@@ -224,10 +226,10 @@ export default function Hero() {
           transition={{ delay: 1, duration: 0.8 }}
         >
           {[
-            { n: '$7', em: 'K+', l: 'Prizes' },
-            { n: '30', em: '', l: 'Judges' },
-            { n: '5', em: '', l: 'Tracks' },
-            { n: '65', em: '+', l: 'Hackers' },
+            { n: 7001, prefix: '$', suffix: '', l: 'Prizes', em: '+' },
+            { n: 31, prefix: '', suffix: '', l: 'Judges' },
+            { n: 5, prefix: '', suffix: '', l: 'Tracks' },
+            { n: 500, prefix: '', suffix: '+', l: 'Participants' },
           ].map((stat, i) => (
             <motion.div 
               key={stat.l}
@@ -237,7 +239,15 @@ export default function Hero() {
               transition={{ delay: 1.1 + i * 0.1, duration: 0.5 }}
               whileHover={{ scale: 1.05, y: -2 }}
             >
-              <span className="stat-n">{stat.n}<em>{stat.em}</em></span>
+              <span className="stat-n">
+                <AnimatedCounter 
+                  end={stat.n} 
+                  prefix={stat.prefix} 
+                  suffix={stat.suffix}
+                  duration={2}
+                />
+                <em>{stat.em}</em>
+              </span>
               <span className="stat-l">{stat.l}</span>
             </motion.div>
           ))}
