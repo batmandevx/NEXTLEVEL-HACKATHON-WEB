@@ -129,21 +129,8 @@ export default function Hero() {
         transition={{ duration: 10, repeat: Infinity, ease: 'easeInOut' }}
       />
 
-      {/* 3D Robot - Right Side */}
-      <motion.div
-        className="absolute right-0 top-1/2 -translate-y-1/2 w-[500px] h-[600px] hidden lg:block z-10"
-        initial={{ opacity: 0, x: 100 }}
-        animate={{ opacity: 1, x: 0 }}
-        transition={{ delay: 1.5, duration: 1 }}
-      >
-        <SplineScene 
-          scene="https://prod.spline.design/kZDDjO5HuC9GJUM2/scene.splinecode"
-          className="w-full h-full"
-        />
-      </motion.div>
-
       <motion.div 
-        className="hero-content lg:pr-[400px]"
+        className="hero-content"
         style={{ y, opacity, scale }}
       >
         {/* Chip */}
@@ -314,6 +301,19 @@ export default function Hero() {
         >
           <span className="scroll-arrow">↓</span>
         </motion.div>
+      </motion.div>
+
+      {/* 3D Robot - Right Side */}
+      <motion.div
+        className="absolute right-[5%] xl:right-[8%] top-[15%] w-[350px] xl:w-[450px] h-[400px] xl:h-[500px] hidden lg:block z-10"
+        initial={{ opacity: 0, x: 100 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ delay: 1.5, duration: 1 }}
+      >
+        <SplineScene 
+          scene="https://prod.spline.design/kZDDjO5HuC9GJUM2/scene.splinecode"
+          className="w-full h-full"
+        />
       </motion.div>
     </section>
   );
