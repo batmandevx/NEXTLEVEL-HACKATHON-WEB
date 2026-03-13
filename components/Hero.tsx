@@ -6,6 +6,7 @@ import TextScramble from './TextScramble';
 import MagneticButton from './MagneticButton';
 import AnimatedCounter from './AnimatedCounter';
 import GradientText from './GradientText';
+import { SplineScene } from '@/components/ui/splite';
 
 const REGISTER_URL = 'https://nextlevelhackathon.devpost.com/';
 const DEADLINE = new Date('2026-03-23T02:30:00+05:30');
@@ -128,8 +129,21 @@ export default function Hero() {
         transition={{ duration: 10, repeat: Infinity, ease: 'easeInOut' }}
       />
 
+      {/* 3D Robot - Right Side */}
+      <motion.div
+        className="absolute right-0 top-1/2 -translate-y-1/2 w-[500px] h-[600px] hidden lg:block z-10"
+        initial={{ opacity: 0, x: 100 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ delay: 1.5, duration: 1 }}
+      >
+        <SplineScene 
+          scene="https://prod.spline.design/kZDDjO5HuC9GJUM2/scene.splinecode"
+          className="w-full h-full"
+        />
+      </motion.div>
+
       <motion.div 
-        className="hero-content"
+        className="hero-content lg:pr-[400px]"
         style={{ y, opacity, scale }}
       >
         {/* Chip */}
