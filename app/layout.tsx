@@ -5,12 +5,12 @@ import './globals.css';
 export const metadata: Metadata = {
   title: 'Next Level Hackathon 2026 — Global Virtual Hackathon | $7,001 in Prizes',
   description: 'Global virtual hackathon open to everyone. $7,001 in cash prizes + internships. 24+ expert judges from Netflix, Meta, Amazon, Salesforce, Atlassian & more. AI/ML, Cloud, Web3, Cybersecurity, Data tracks. March 2026.',
-  keywords: 'hackathon, global hackathon, AI hackathon, developers, professionals, students, devpost, 2026, prizes, online hackathon, open to everyone',
+  keywords: 'hackathon, global hackathon, AI hackathon, developers, professionals, students, nextdev-hackathon, 2026, prizes, online hackathon, open to everyone',
   openGraph: {
     title: 'Next Level Hackathon 2026 — $7,001 in Prizes',
     description: 'Build the next generation of AI, product innovation, and startup-ready solutions. Open to developers, designers, founders, and professionals worldwide.',
     type: 'website',
-    url: 'https://nextlevelhackathon.devpost.com/',
+    url: 'https://nextdev-hackathon.devpost.com/',
   },
   twitter: {
     card: 'summary_large_image',

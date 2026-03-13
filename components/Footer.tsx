@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion';
 
-const DEVPOST = 'https://nextlevelhackathon.devpost.com/';
+const DEVPOST = 'https://nextdev-hackathon.devpost.com/';
 
 const footerLinks = {
   Event: [
@@ -114,7 +114,7 @@ export default function Footer() {
             x: 5,
           }}
         >
-          nextlevelhackathon.devpost.com →
+          nextdev-hackathon.devpost.com →
         </motion.a>
       </motion.div>
 

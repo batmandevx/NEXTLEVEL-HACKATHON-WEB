@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import TextScramble from './TextScramble';
 
-const REGISTER_URL = 'https://nextlevelhackathon.devpost.com/';
+const REGISTER_URL = 'https://nextdev-hackathon.devpost.com/';
 
 export default function Nav() {
   const [scrolled, setScrolled] = useState(false);

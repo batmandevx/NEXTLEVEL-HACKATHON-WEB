@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import TiltCard from './TiltCard';
 import TextScramble from './TextScramble';
 
-const REGISTER_URL = 'https://nextlevelhackathon.devpost.com/';
+const REGISTER_URL = 'https://nextdev-hackathon.devpost.com/';
 
 const audienceData = [
   {
