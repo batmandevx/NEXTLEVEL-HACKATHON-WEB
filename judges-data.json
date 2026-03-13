@@ -1,7 +1,7 @@
 [
   {
     "id": "j01",
-    "initials": "VP",
+    "initials": "VK",
     "name": "Venkata Krishna Bharadwaj Parasaram",
     "linkedin": "https://www.linkedin.com/in/venkata-k-bharadwaj-parasaram/",
     "email": "venkata.parasaram@ieee.org",
@@ -21,7 +21,7 @@
   },
   {
     "id": "j03",
-    "initials": "SM",
+    "initials": "SK",
     "name": "Siva Kumar Mudiyanur",
     "linkedin": "https://www.linkedin.com/in/siva-mudiyanur/",
     "email": "msivakmr@gmail.com",
@@ -33,7 +33,7 @@
     "id": "j04",
     "initials": "VM",
     "name": "Varun Misra",
-    "linkedin": "https://linkedin.com/in/varun-misra-33048915",
+    "linkedin": "linkedin.com/in/varun-misra-33048915",
     "email": "varun.misra00@gmail.com",
     "role": "Director Technical Architect",
     "org": "Salesforce Inc",
@@ -61,7 +61,7 @@
   },
   {
     "id": "j07",
-    "initials": "TI",
+    "initials": "TC",
     "name": "Talha Cagatay ISIK",
     "linkedin": "https://www.linkedin.com/in/talhaisik/",
     "email": "isiktalhacagatay@gmail.com",
@@ -83,7 +83,7 @@
     "id": "j09",
     "initials": "SM",
     "name": "Sneha Malshetti",
-    "linkedin": "https://LinkedIn.com/in/sneha-malshetti",
+    "linkedin": "LinkedIn.com/in/sneha-malshetti",
     "email": "sneha.malshetti@gmail.com",
     "role": "Senior Security Engineer",
     "org": "Ethos",
@@ -111,7 +111,7 @@
   },
   {
     "id": "j12",
-    "initials": "JM",
+    "initials": "JN",
     "name": "Jeet Nishit Mehta",
     "linkedin": "https://www.linkedin.com/in/jeetm35/",
     "email": "jeetm35@gmail.com",
@@ -143,7 +143,7 @@
     "id": "j15",
     "initials": "AG",
     "name": "Ashish Ghatge",
-    "linkedin": "https://linkedin.com/in/ashish-ghatge",
+    "linkedin": "linkedin.com/in/ashish-ghatge",
     "email": "aghatge1@alumni.jh.edu",
     "role": "Robotics Software Engineer - Localization and Perception",
     "org": "Zupt, LLC",
@@ -161,7 +161,7 @@
   },
   {
     "id": "j17",
-    "initials": "SP",
+    "initials": "SR",
     "name": "Santosh Ramrao Patil",
     "linkedin": "https://www.linkedin.com/in/2santoshpatil/",
     "email": "2santoshpatil@gmail.com",
@@ -181,9 +181,9 @@
   },
   {
     "id": "j19",
-    "initials": "SR",
+    "initials": "SK",
     "name": "Suresh Kumar Thulasi Ram",
-    "linkedin": "https://www.linkedin.com/in/sureshkumarthulasiram-ai",
+    "linkedin": "www.linkedin.com/in/sureshkumarthulasiram-ai",
     "email": "thulasiramsureshkumar@gmail.com",
     "role": "Senior AI & Cloud Professional (Independent)| Hackathon Judge & Evaluator",
     "org": "https://admnwizard.com",
@@ -221,9 +221,9 @@
   },
   {
     "id": "j23",
-    "initials": "SR",
+    "initials": "SL",
     "name": "Shri Lakshmi Rajagopal",
-    "linkedin": "",
+    "linkedin": "nan",
     "email": "Shrilakshmirajagopal@gmail.com",
     "role": "Sr.Automation QA Engineer",
     "org": "",
@@ -231,9 +231,9 @@
   },
   {
     "id": "j24",
-    "initials": "SP",
+    "initials": "SA",
     "name": "SriHarsha anand Pushkala",
-    "linkedin": "https://LinkedIn.com/sriharshaanandpushkala",
+    "linkedin": "LinkedIn.com/sriharshaanandpushkala",
     "email": "sri.harsha132@gmail.com",
     "role": "Director, Fraud Analytics",
     "org": "Atlanticus",
@@ -241,7 +241,7 @@
   },
   {
     "id": "j25",
-    "initials": "JB",
+    "initials": "JP",
     "name": "Juan Pablo Peral Belmont",
     "linkedin": "https://www.linkedin.com/in/jppbelmont/",
     "email": "juan@nerdmask.com",
@@ -273,7 +273,7 @@
     "id": "j28",
     "initials": "VJ",
     "name": "Vidit Jain",
-    "linkedin": "https://Check out Vidit Jain’s profile on LinkedIn https://www.linkedin.com/in/viditjain92",
+    "linkedin": "Check out Vidit Jain’s profile on LinkedIn https://www.linkedin.com/in/viditjain92",
     "email": "jain.vidit84@gmail.com",
     "role": "Data Scientist",
     "org": "Credit One Bank",
@@ -301,12 +301,62 @@
   },
   {
     "id": "j31",
-    "initials": "AJ",
+    "initials": "PB",
+    "name": "Patrick Blumenthal",
+    "linkedin": "https://www.linkedin.com/in/patrick-blumenthal/",
+    "email": "patrick.blumenthal@bluewin.ch",
+    "role": "VC",
+    "org": "Ecosystem Ventures",
+    "photo": "https://drive.google.com/open?id=1SppItyfrvzOCEh3_2dgiCWR-dMqXjZ2j"
+  },
+  {
+    "id": "j32",
+    "initials": "RT",
+    "name": "Ravi Teja Reddy Mandala",
+    "linkedin": "https://www.linkedin.com/in/ravi-teja-reddy-m-076330125/",
+    "email": "rteja7799@gmail.com",
+    "role": "Senior Site Reliability Engineer",
+    "org": "",
+    "photo": "https://drive.google.com/open?id=1DJWpuVTWCMS0B3gzmHHZZ2JcBzCGp6kR"
+  },
+  {
+    "id": "j33",
+    "initials": "AR",
     "name": "Ayush Raj Jha",
-    "linkedin": "",
+    "linkedin": "https://www.linkedin.com/in/ayushjha1711/",
     "email": "ajha8.hawk.iit.edu@gmail.com",
     "role": "Senior Software Engineer",
-    "org": "Oracle America Inc.",
-    "photo": ""
+    "org": "Oracle",
+    "photo": "https://drive.google.com/open?id=114ZRAfNNrInBYnHLp-FPNzlCvFzy7faT"
+  },
+  {
+    "id": "j34",
+    "initials": "DB",
+    "name": "Debrath Banerjee",
+    "linkedin": "nan",
+    "email": "debrath.banerjee@ieee.org",
+    "role": "Senior Software Engineer",
+    "org": "",
+    "photo": "https://drive.google.com/open?id=1lvdwp_lMYYzE7zIzpMFFurQK6CDmMISb"
+  },
+  {
+    "id": "j35",
+    "initials": "PB",
+    "name": "Pravin Barapatre",
+    "linkedin": "nan",
+    "email": "pravin.barapatre@gmail.com",
+    "role": "Software Engineering Manager",
+    "org": "",
+    "photo": "https://drive.google.com/open?id=1TA3KIbEGXVp7Dty95tdTfN_VcbPJJ3SS"
+  },
+  {
+    "id": "j36",
+    "initials": "PK",
+    "name": "Pradyumna Kumar",
+    "linkedin": "https://www.linkedin.com/in/pradyumnakumar/",
+    "email": "pradyumnakumar7@gmail.com",
+    "role": "Managing Delivery Architect",
+    "org": "Capgemini America",
+    "photo": "https://drive.google.com/open?id=1Eegf__Wz5wX3CEBe4ENut_LGSl9bZehA"
   }
 ]
