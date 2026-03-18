@@ -6,6 +6,7 @@ import Audience from '@/components/Audience';
 import Prizes from '@/components/Prizes';
 import Timeline from '@/components/Timeline';
 import Judges from '@/components/Judges';
+import JudgesFlipCards from '@/components/JudgesFlipCards';
 import Criteria from '@/components/Criteria';
 import Requirements from '@/components/Requirements';
 import Resources from '@/components/Resources';
@@ -34,6 +35,7 @@ export default function Home() {
         <Prizes />
         <Timeline />
         <Judges />
+        <JudgesFlipCards />
         <Criteria />
         <Requirements />
         <Resources />

@@ -7,7 +7,11 @@
     "email": "venkata.parasaram@ieee.org",
     "role": "Senior Project Manager",
     "org": "Thermo Fisher Scientific",
-    "photo": "https://drive.google.com/open?id=1r2_d5jEeKvCk3JdiQLGsovK1J5aBjoUq"
+    "photo": "https://drive.google.com/open?id=1r2_d5jEeKvCk3JdiQLGsovK1J5aBjoUq",
+    "bio": "Venkata Krishna Bharadwaj Parasaram is a Senior Project Manager and AI Researcher at Thermo Fisher Scientific with over nine years of experience in artificial intelligence, cybersecurity, and healthcare analytics. He leads large-scale, NIH-supported clinical research initiatives across 400+ sites...",
+    "experience": "",
+    "expertise": "Artificial Intelligence / Machine Learning, Generative AI / LLM Applications, Cloud Infrastructure, Cybersecurity, Web Development",
+    "yearsExp": "10+ years"
   },
   {
     "id": "j02",
@@ -17,7 +21,11 @@
     "email": "lokeshkaranam3@gmail.com",
     "role": "Staff Software Engineer",
     "org": "RR Donnelley",
-    "photo": "https://drive.google.com/open?id=1ci7Yrv4P3xNXmATyu6EsRc2XpZOlzxdM"
+    "photo": "https://drive.google.com/open?id=1ci7Yrv4P3xNXmATyu6EsRc2XpZOlzxdM",
+    "bio": "Staff Software Engineer at RR Donnelley with 5+ years of experience in ML, Big Data, and GenAI systems. I have extensive experience in designing large-scale data systems and scaling infrastructure for production machine learning workloads, with a particular emphasis on Snowflake-based pipelines a...",
+    "experience": "",
+    "expertise": "Artificial Intelligence / Machine Learning, Generative AI / LLM Applications, Cloud Infrastructure, DevOps / Platform Engineering, Cybersecurity, Data Engineering / Big Data, Product Development",
+    "yearsExp": "5\u201310 years"
   },
   {
     "id": "j03",
@@ -27,17 +35,25 @@
     "email": "msivakmr@gmail.com",
     "role": "Senior Business Intelligence Engineer",
     "org": "Amazon",
-    "photo": "https://drive.google.com/open?id=1iiVZ-L7vE7Bw4H8mAHRXBFl0aEL5BCpx"
+    "photo": "https://drive.google.com/open?id=1iiVZ-L7vE7Bw4H8mAHRXBFl0aEL5BCpx",
+    "bio": "Siva is a Senior Business Intelligence Engineer with deep expertise in large-scale analytics and AI-enabled insights. He has led and evaluated solutions that influence strategic decision-making and operational efficiency. He applies this experience when evaluating\ndata and AI-driven projects for ...",
+    "experience": "",
+    "expertise": "Artificial Intelligence / Machine Learning, Generative AI / LLM Applications, Cloud Infrastructure, Data Engineering / Big Data, Product Development",
+    "yearsExp": "10+ years"
   },
   {
     "id": "j04",
     "initials": "VM",
     "name": "Varun Misra",
-    "linkedin": "linkedin.com/in/varun-misra-33048915",
+    "linkedin": "https://linkedin.com/in/varun-misra-33048915",
     "email": "varun.misra00@gmail.com",
     "role": "Director Technical Architect",
     "org": "Salesforce Inc",
-    "photo": "https://drive.google.com/open?id=1szuaShSTcq2K9kGTlCtAs6FF1tO_pTle"
+    "photo": "https://drive.google.com/open?id=1szuaShSTcq2K9kGTlCtAs6FF1tO_pTle",
+    "bio": "I am a technology and CRM leader with 16 years of experience helping organizations use Salesforce to drive real business results. As a Director Technical Architect, I focus on bringing together people, process, and platform to create scalable and meaningful customer experiences.",
+    "experience": "",
+    "expertise": "Artificial Intelligence / Machine Learning, Generative AI / LLM Applications, DevOps / Platform Engineering, Data Engineering / Big Data, Mobile Development, Product Development",
+    "yearsExp": "10+ years"
   },
   {
     "id": "j05",
@@ -47,7 +63,11 @@
     "email": "jyotiyadav2611@gmail.com",
     "role": "Sr Data Science Manager",
     "org": "Atlassian",
-    "photo": "https://drive.google.com/open?id=1VGrQoFHQzF5N1KxviRTneWS5t5FKk6CF"
+    "photo": "https://drive.google.com/open?id=1VGrQoFHQzF5N1KxviRTneWS5t5FKk6CF",
+    "bio": "I'm a seasoned Data Science leader with over 13 years of experience driving growth and technical strategy for global technology giants and high-growth startups. Expert at bridging the gap between deep technical engineering and product intuition, I've a proven track record of scaling high-performi...",
+    "experience": "",
+    "expertise": "Artificial Intelligence / Machine Learning, Data Engineering / Big Data, Product Development, Startup / Venture Building",
+    "yearsExp": "10+ years"
   },
   {
     "id": "j06",
@@ -56,8 +76,12 @@
     "linkedin": "https://www.linkedin.com/in/v-latypov/",
     "email": "latypovmail@proton.me",
     "role": "Senior Project Manager, PMO lead",
-    "org": "Hercules Dynamics",
-    "photo": "https://drive.google.com/open?id=1CJU6F_bx37f-duasTEJZi7BB5z1axwxM"
+    "org": "",
+    "photo": "https://drive.google.com/open?id=1CJU6F_bx37f-duasTEJZi7BB5z1axwxM",
+    "bio": "Viacheslav Latypov is a Senior Project Manager and PMO Lead with over 10 years of experience delivering AI-driven platforms and scalable enterprise software systems. He specializes in Artificial Intelligence, Machine Learning, and developer-focused infrastructure. At Hercules Dynamics, he leads c...",
+    "experience": "",
+    "expertise": "Artificial Intelligence / Machine Learning, Generative AI / LLM Applications, Cloud Infrastructure, DevOps / Platform Engineering, Cybersecurity, Data Engineering / Big Data, Product Development",
+    "yearsExp": "10+ years"
   },
   {
     "id": "j07",
@@ -67,7 +91,11 @@
     "email": "isiktalhacagatay@gmail.com",
     "role": "Senior Integration Engineer",
     "org": "",
-    "photo": "https://drive.google.com/open?id=1DVzXdcT0uB5NcFKvTzsrhj4yNwTymd_J"
+    "photo": "https://drive.google.com/open?id=1DVzXdcT0uB5NcFKvTzsrhj4yNwTymd_J",
+    "bio": "Talha Cagatay Isik is a Lead Unity Developer with over 10 years of experience in C#/.NET and Unity 3D, specializing in SDK, tooling, and scalable game infrastructure. He currently leads the Tezos Unity SDK at Trilitech, building the first gaming SDK for the Tezos blockchain and mentoring teams wh...",
+    "experience": "",
+    "expertise": "Mobile Development, Web3/Blockchain",
+    "yearsExp": "10+ years"
   },
   {
     "id": "j08",
@@ -77,17 +105,25 @@
     "email": "tewarishishir@gmail.com",
     "role": "Senior Manager, Data Engineering",
     "org": "Procore Technologies",
-    "photo": "https://drive.google.com/open?id=16CTXPyPtyAcXj41M0RLqVo3RUC9LMyQV"
+    "photo": "https://drive.google.com/open?id=16CTXPyPtyAcXj41M0RLqVo3RUC9LMyQV",
+    "bio": "Shishir Tewari is a Principal-Level Data Engineering Leader with over two decades of experience scaling AI-native data architectures and decision intelligence platforms. Currently a Senior Manager of Data Engineering at Procore Technologies, he leads the strategic architecture for Marketing, Fina...",
+    "experience": "",
+    "expertise": "Artificial Intelligence / Machine Learning, Generative AI / LLM Applications, Cloud Infrastructure, Data Engineering / Big Data",
+    "yearsExp": "10+ years"
   },
   {
     "id": "j09",
     "initials": "SM",
     "name": "Sneha Malshetti",
-    "linkedin": "LinkedIn.com/in/sneha-malshetti",
+    "linkedin": "https://LinkedIn.com/in/sneha-malshetti",
     "email": "sneha.malshetti@gmail.com",
     "role": "Senior Security Engineer",
     "org": "Ethos",
-    "photo": "https://drive.google.com/open?id=19tEYTrDbZKejZtsTAoqn1WCzZFXl54CT"
+    "photo": "https://drive.google.com/open?id=19tEYTrDbZKejZtsTAoqn1WCzZFXl54CT",
+    "bio": "\"Sneha is a Senior Security Engineer at Ethos Life in San Francisco, where she leads cloud architecture and Security initiatives. With over 11 years of experience in the field, she has become an expert in securing massive, scalable cloud environments across AWS, GCP, and Azure.\nHer technical cont...",
+    "experience": "",
+    "expertise": "Cloud Infrastructure, Cybersecurity, Startup / Venture Building",
+    "yearsExp": "10+ years"
   },
   {
     "id": "j10",
@@ -97,7 +133,11 @@
     "email": "jdinesh86@gmail.com",
     "role": "Engineering Manager",
     "org": "",
-    "photo": "https://drive.google.com/open?id=1osSp9qKcy48tU1IGPl7RKfJkJ4gwQltK"
+    "photo": "https://drive.google.com/open?id=1osSp9qKcy48tU1IGPl7RKfJkJ4gwQltK",
+    "bio": "Dinesh Jagadeesan is an Engineering Manager at Meta Platforms, where he leads the Media Infra I/O Compute and Intelligence team \u2014 responsible for AI-integrated media infrastructure serving billions of users across Facebook, Instagram, WhatsApp, and Messenger. Previously, he spent over a decade at...",
+    "experience": "",
+    "expertise": "Artificial Intelligence / Machine Learning, Generative AI / LLM Applications, Cloud Infrastructure, DevOps / Platform Engineering, Cybersecurity, Data Engineering / Big Data, Web Development, Mobile Development, Product Development",
+    "yearsExp": "10+ years"
   },
   {
     "id": "j11",
@@ -107,7 +147,11 @@
     "email": "srikanth1539@gmail.com",
     "role": "Senior Software Development Engineer Test",
     "org": "SCDHHS",
-    "photo": "https://drive.google.com/open?id=1QK-jMHbUqRnX7rqMzyQxbFpmeSkJ4Rma"
+    "photo": "https://drive.google.com/open?id=1QK-jMHbUqRnX7rqMzyQxbFpmeSkJ4Rma",
+    "bio": "Srikanth Kavuri is a Software Quality Engineering leader, IEEE Senior Member, and independent researcher specializing in AI-driven software reliability and cloud-scale systems. With over 12 years of experience in enterprise technology, he has led initiatives in test automation architecture, API v...",
+    "experience": "",
+    "expertise": "Artificial Intelligence / Machine Learning, Generative AI / LLM Applications, Cloud Infrastructure, DevOps / Platform Engineering, Data Engineering / Big Data",
+    "yearsExp": "10+ years"
   },
   {
     "id": "j12",
@@ -117,7 +161,11 @@
     "email": "jeetm35@gmail.com",
     "role": "Software Engineer",
     "org": "Netflix",
-    "photo": "https://drive.google.com/open?id=12gMss_NR6E3maxjnwlVvg7ngGAWV9Rf6"
+    "photo": "https://drive.google.com/open?id=12gMss_NR6E3maxjnwlVvg7ngGAWV9Rf6",
+    "bio": "",
+    "experience": "",
+    "expertise": "",
+    "yearsExp": "5\u201310 years"
   },
   {
     "id": "j13",
@@ -126,8 +174,12 @@
     "linkedin": "https://www.linkedin.com/in/deepanjanmukherjee/",
     "email": "deepanjan.mkje@gmail.com",
     "role": "Director of Engineering",
-    "org": "athenahealth Inc.",
-    "photo": "https://drive.google.com/open?id=1cnsP9YHLpuAzEogLbaz3KgLfnsJEXBfP"
+    "org": "",
+    "photo": "https://drive.google.com/open?id=1cnsP9YHLpuAzEogLbaz3KgLfnsJEXBfP",
+    "bio": "Deepanjan Mukherjee is a Director of Engineering at athenahealth, where he leads a 40-person distributed team building patient experience platforms serving over 10 million users monthly across Patient Portal, Native Apps, and Telehealth. With 14+ years of experience spanning healthcare IT and e-c...",
+    "experience": "",
+    "expertise": "Artificial Intelligence / Machine Learning, Generative AI / LLM Applications, DevOps / Platform Engineering, Web Development, Product Development",
+    "yearsExp": "10+ years"
   },
   {
     "id": "j14",
@@ -136,18 +188,26 @@
     "linkedin": "https//www.linkedin.com/in/akankshajangir",
     "email": "akjangir1208@gmail.com",
     "role": "Lead Data Engineer",
-    "org": "SymphonyAI",
-    "photo": "https://drive.google.com/open?id=1CCwJZPewMjF-ydjVFjQyNhge2Yv7rjxK"
+    "org": "",
+    "photo": "https://drive.google.com/open?id=1CCwJZPewMjF-ydjVFjQyNhge2Yv7rjxK",
+    "bio": "Entrepreneurial, Data Savvy, and Driven Mindset leader with a proven track record of 7+ years in Product Management and Data Engineering managing a multinational team of five data analysts and data engineers. Exemplary ability to collaborate to build valuable business relationships with stakehold...",
+    "experience": "",
+    "expertise": "Data Engineering / Big Data, Product Development",
+    "yearsExp": "10+ years"
   },
   {
     "id": "j15",
     "initials": "AG",
     "name": "Ashish Ghatge",
-    "linkedin": "linkedin.com/in/ashish-ghatge",
+    "linkedin": "https://linkedin.com/in/ashish-ghatge",
     "email": "aghatge1@alumni.jh.edu",
     "role": "Robotics Software Engineer - Localization and Perception",
     "org": "Zupt, LLC",
-    "photo": "https://drive.google.com/open?id=1GRbVPez234a5-CqrkvBgsPYHeTbenWr3"
+    "photo": "https://drive.google.com/open?id=1GRbVPez234a5-CqrkvBgsPYHeTbenWr3",
+    "bio": "Ashish Ghatge is a Robotics Engineer at ZUPT LLC in Houston, specializing in localization, perception, and autonomous inspection systems for offshore energy applications. His work spans subsea ROV navigation, GPU accelerated inspection planning, 3D point cloud processing, and marine positioning s...",
+    "experience": "",
+    "expertise": "Artificial Intelligence / Machine Learning, Generative AI / LLM Applications, Product Development, Startup / Venture Building",
+    "yearsExp": "5\u201310 years"
   },
   {
     "id": "j16",
@@ -157,7 +217,11 @@
     "email": "ngvtsyn@gmail.com",
     "role": "Quantitative Researcher",
     "org": "",
-    "photo": "https://drive.google.com/open?id=1tWlTY0wYLtmLTUD5HGgA0xl4Y3C41j6a"
+    "photo": "https://drive.google.com/open?id=1tWlTY0wYLtmLTUD5HGgA0xl4Y3C41j6a",
+    "bio": "I\u2019m a Quantitative Developer specializing in trading systems for electricity and fixed-income markets. I currently build quantitative trading models for day-ahead and real-time power markets at a private U.S. energy trading firm. Previously, I worked at Raiffeisen Bank and other financial institu...",
+    "experience": "",
+    "expertise": "Artificial Intelligence / Machine Learning, Data Engineering / Big Data, Product Development",
+    "yearsExp": "3\u20135 years"
   },
   {
     "id": "j17",
@@ -167,7 +231,11 @@
     "email": "2santoshpatil@gmail.com",
     "role": "Senior Product Manager",
     "org": "Cisco Systems",
-    "photo": "https://drive.google.com/open?id=1p203nAxXxS8LhrgLmkNKuyFGfeYHapLj"
+    "photo": "https://drive.google.com/open?id=1p203nAxXxS8LhrgLmkNKuyFGfeYHapLj",
+    "bio": "Senior Product Manager | Driving Product Innovation & Adoption at Scale\n\n18+ years building and scaling enterprise cloud infrastructure, network platforms, and IoT solutions from 0-to-1 and beyond. Proven track record of delivering measurable business impact: $60M+ revenue generation, $200M+ plat...",
+    "experience": "",
+    "expertise": "Artificial Intelligence / Machine Learning, Cloud Infrastructure, Cybersecurity, Product Development, Startup / Venture Building",
+    "yearsExp": "10+ years"
   },
   {
     "id": "j18",
@@ -177,17 +245,25 @@
     "email": "mail@pearcedolan.com",
     "role": "Head of Product",
     "org": "Deel",
-    "photo": "https://drive.google.com/open?id=12MWRUl9z05LyySwpnXZXW9llyUgN7740"
+    "photo": "https://drive.google.com/open?id=12MWRUl9z05LyySwpnXZXW9llyUgN7740",
+    "bio": "",
+    "experience": "",
+    "expertise": "Artificial Intelligence / Machine Learning, Web Development, Mobile Development, Product Development, Startup / Venture Building, Prime focus is Product Design/UX and secondary Product Management and Entrepreneurship",
+    "yearsExp": "10+ years"
   },
   {
     "id": "j19",
     "initials": "SK",
     "name": "Suresh Kumar Thulasi Ram",
-    "linkedin": "www.linkedin.com/in/sureshkumarthulasiram-ai",
+    "linkedin": "https://www.linkedin.com/in/sureshkumarthulasiram-ai",
     "email": "thulasiramsureshkumar@gmail.com",
     "role": "Senior AI & Cloud Professional (Independent)| Hackathon Judge & Evaluator",
-    "org": "https://admnwizard.com",
-    "photo": "https://drive.google.com/open?id=1gC04SIrBcyH_muqzn2j85S-KSmljgGHC"
+    "org": "Senior AI & Cloud Professional (Independent)| Hackathon Judge & Evaluator Chennai, Tamil Nadu, India",
+    "photo": "https://drive.google.com/open?id=1gC04SIrBcyH_muqzn2j85S-KSmljgGHC",
+    "bio": "Senior Project, Program & Innovation Governance Professional | AI & GenAI | PMO Evaluation | Hackathon Judge & Mentor",
+    "experience": "",
+    "expertise": "Artificial Intelligence / Machine Learning, Generative AI / LLM Applications, Cloud Infrastructure, DevOps / Platform Engineering, Data Engineering / Big Data, Web Development, Product Development, Startup / Venture Building",
+    "yearsExp": "10+ years"
   },
   {
     "id": "j20",
@@ -196,8 +272,12 @@
     "linkedin": "https://www.linkedin.com/in/atul-khanna-34a2b142/",
     "email": "khanna_atul@hotmail.com",
     "role": "Enterprise Support Manager",
-    "org": "AWS",
-    "photo": "https://drive.google.com/open?id=1WL6kip0NJAuarfQSdjXTwoRUKrxC8tzh"
+    "org": "",
+    "photo": "https://drive.google.com/open?id=1WL6kip0NJAuarfQSdjXTwoRUKrxC8tzh",
+    "bio": "",
+    "experience": "",
+    "expertise": "Artificial Intelligence / Machine Learning, Generative AI / LLM Applications, Cloud Infrastructure",
+    "yearsExp": "10+ years"
   },
   {
     "id": "j21",
@@ -207,7 +287,11 @@
     "email": "aulakh.raman1@gmail.com",
     "role": "Sr. Director of Product",
     "org": "Visa",
-    "photo": "https://drive.google.com/open?id=1eU3D92Ku2S1l1IRIO1XaFU2N0CAimeYz"
+    "photo": "https://drive.google.com/open?id=1eU3D92Ku2S1l1IRIO1XaFU2N0CAimeYz",
+    "bio": "Raman Aulakh is a Fintech product leader specializing in global payments, bank integrations and AI-powered financial products. Over the past 15 years, he has led cross-functional teams to conceptualize, launch and scale global Fintech products. He\u2019s passionate about building products that elevate...",
+    "experience": "",
+    "expertise": "Generative AI / LLM Applications, Web Development, Mobile Development, Product Development",
+    "yearsExp": "10+ years"
   },
   {
     "id": "j22",
@@ -217,27 +301,39 @@
     "email": "rammi.aulakh26@gmail.com",
     "role": "Sr. Director, Product Management",
     "org": "Visa",
-    "photo": "https://drive.google.com/open?id=1I88ftFvPdXA16JyVr8Wbzlvnrf1Nl8pj"
+    "photo": "https://drive.google.com/open?id=1I88ftFvPdXA16JyVr8Wbzlvnrf1Nl8pj",
+    "bio": "",
+    "experience": "",
+    "expertise": "Artificial Intelligence / Machine Learning, Generative AI / LLM Applications, Cloud Infrastructure, Data Engineering / Big Data, Web Development, Product Development, Startup / Venture Building",
+    "yearsExp": "10+ years"
   },
   {
     "id": "j23",
     "initials": "SL",
     "name": "Shri Lakshmi Rajagopal",
-    "linkedin": "nan",
+    "linkedin": "",
     "email": "Shrilakshmirajagopal@gmail.com",
     "role": "Sr.Automation QA Engineer",
     "org": "",
-    "photo": "https://drive.google.com/open?id=1zG082jMPi5v_QZ9WhtaMwboo-rLUkoov"
+    "photo": "https://drive.google.com/open?id=1zG082jMPi5v_QZ9WhtaMwboo-rLUkoov",
+    "bio": "",
+    "experience": "",
+    "expertise": "Artificial Intelligence / Machine Learning, Cloud Infrastructure, DevOps / Platform Engineering, Cybersecurity, Web Development, Startup / Venture Building",
+    "yearsExp": "10+ years"
   },
   {
     "id": "j24",
     "initials": "SA",
     "name": "SriHarsha anand Pushkala",
-    "linkedin": "LinkedIn.com/sriharshaanandpushkala",
+    "linkedin": "https://LinkedIn.com/sriharshaanandpushkala",
     "email": "sri.harsha132@gmail.com",
     "role": "Director, Fraud Analytics",
     "org": "Atlanticus",
-    "photo": "https://drive.google.com/open?id=1zHkh-PAgHi-5_yuw69jq6_xhWmZOTg2d"
+    "photo": "https://drive.google.com/open?id=1zHkh-PAgHi-5_yuw69jq6_xhWmZOTg2d",
+    "bio": "I am a fraud analytics and AI leader with extensive experience designing and deploying data-driven risk strategies across the credit lifecycle. As Director of Fraud Strategy & Analytics, I lead global teams focused on application and transaction fraud, identity and document verification, device i...",
+    "experience": "",
+    "expertise": "Artificial Intelligence / Machine Learning, Generative AI / LLM Applications, Cybersecurity, Product Development",
+    "yearsExp": "10+ years"
   },
   {
     "id": "j25",
@@ -247,7 +343,11 @@
     "email": "juan@nerdmask.com",
     "role": "CEO & Founder",
     "org": "Nerdmask",
-    "photo": "https://drive.google.com/open?id=1syJGnj8eaNNtu_LvMvSG5e7lN9MmAxo5"
+    "photo": "https://drive.google.com/open?id=1syJGnj8eaNNtu_LvMvSG5e7lN9MmAxo5",
+    "bio": "CEO & Co-founder at Nerdmask - 500 Global Alumni",
+    "experience": "",
+    "expertise": "Artificial Intelligence / Machine Learning, Mobile Development, Product Development, Startup / Venture Building",
+    "yearsExp": "5\u201310 years"
   },
   {
     "id": "j26",
@@ -257,7 +357,11 @@
     "email": "iamkankute@gmail.com",
     "role": "Founding Backend Engineer",
     "org": "",
-    "photo": "https://drive.google.com/open?id=1TIA4XX1cDY52QyUq-PrqNmUKpC6U5Dv1"
+    "photo": "https://drive.google.com/open?id=1TIA4XX1cDY52QyUq-PrqNmUKpC6U5Dv1",
+    "bio": "",
+    "experience": "",
+    "expertise": "Artificial Intelligence / Machine Learning, Generative AI / LLM Applications, Web Development",
+    "yearsExp": "0\u20133 years"
   },
   {
     "id": "j27",
@@ -266,18 +370,26 @@
     "linkedin": "https://www.linkedin.com/in/meethaojia/",
     "email": "hao.jia@admitplus.ai",
     "role": "Founder & CEO & CTO",
-    "org": "SynMind Inc",
-    "photo": "https://drive.google.com/open?id=1UJvjz0BmCSG04qGE1GPNqvjPecIsRQ97"
+    "org": "",
+    "photo": "https://drive.google.com/open?id=1UJvjz0BmCSG04qGE1GPNqvjPecIsRQ97",
+    "bio": "I am the founder of AdmitPlus, an AI platform building persistent intelligence for global students preparing for exams, university admissions, and international careers. Previously, I was a software engineer at TikTok, where I worked on large-scale systems serving millions of users.",
+    "experience": "",
+    "expertise": "Artificial Intelligence / Machine Learning, Generative AI / LLM Applications, Cloud Infrastructure, DevOps / Platform Engineering, Data Engineering / Big Data, Startup / Venture Building",
+    "yearsExp": "3\u20135 years"
   },
   {
     "id": "j28",
     "initials": "VJ",
     "name": "Vidit Jain",
-    "linkedin": "Check out Vidit Jain’s profile on LinkedIn https://www.linkedin.com/in/viditjain92",
+    "linkedin": "https://Check out Vidit Jain\u2019s profile on LinkedIn https://www.linkedin.com/in/viditjain92",
     "email": "jain.vidit84@gmail.com",
     "role": "Data Scientist",
     "org": "Credit One Bank",
-    "photo": "https://drive.google.com/open?id=1rRUceOxRqWnliWGrVSIyoeEEb700Y9IV"
+    "photo": "https://drive.google.com/open?id=1rRUceOxRqWnliWGrVSIyoeEEb700Y9IV",
+    "bio": "I\u2019m a Senior Product Manager and Data Scientist with a decade of experience building and scaling high-impact digital products at the intersection of technology, data, and customer experience. I\u2019ve led initiatives within Nike\u2019s Digital Consumer Services team, website & mobile app team and Order ma...",
+    "experience": "",
+    "expertise": "Artificial Intelligence / Machine Learning, Generative AI / LLM Applications, Data Engineering / Big Data, Product Development",
+    "yearsExp": "5\u201310 years"
   },
   {
     "id": "j29",
@@ -287,7 +399,11 @@
     "email": "emailsanjoys@gmail.com",
     "role": "Senior Vice President, Senior Director",
     "org": "First Citizens Bank",
-    "photo": "https://drive.google.com/open?id=1Fj7qA_94xobeYwRlQoBSgr_OkHlGOjx8"
+    "photo": "https://drive.google.com/open?id=1Fj7qA_94xobeYwRlQoBSgr_OkHlGOjx8",
+    "bio": "Sanjoy Sarkar is a Senior Vice President and Senior Director at First Citizens Bank, where he leads Enterprise Workflow Automation and Robotics initiatives across multiple business lines. With more than 16 years of experience in intelligent automation, machine learning, BPM, and digital transform...",
+    "experience": "",
+    "expertise": "Artificial Intelligence / Machine Learning, Generative AI / LLM Applications, Cloud Infrastructure, DevOps / Platform Engineering, Web Development",
+    "yearsExp": "10+ years"
   },
   {
     "id": "j30",
@@ -297,7 +413,11 @@
     "email": "manishakonda1999@gmail.com",
     "role": "Senior Analyst",
     "org": "Walgreens",
-    "photo": "https://drive.google.com/open?id=1S6qZRuAHiNayYZdPKTD4FdeD7FSomWBo"
+    "photo": "https://drive.google.com/open?id=1S6qZRuAHiNayYZdPKTD4FdeD7FSomWBo",
+    "bio": "Manisha Konda is a Senior Analyst at Walgreens with experience in data analytics, data engineering, and technology-driven business solutions. She works on building data pipelines, analyzing large datasets, and developing data-driven insights that support operational and strategic decision-making....",
+    "experience": "",
+    "expertise": "Artificial Intelligence / Machine Learning, Generative AI / LLM Applications, Cloud Infrastructure, DevOps / Platform Engineering, Data Engineering / Big Data, Mobile Development, Startup / Venture Building",
+    "yearsExp": "5\u201310 years"
   },
   {
     "id": "j31",
@@ -306,8 +426,12 @@
     "linkedin": "https://www.linkedin.com/in/patrick-blumenthal/",
     "email": "patrick.blumenthal@bluewin.ch",
     "role": "VC",
-    "org": "Ecosystem Ventures",
-    "photo": "https://drive.google.com/open?id=1SppItyfrvzOCEh3_2dgiCWR-dMqXjZ2j"
+    "org": "",
+    "photo": "https://drive.google.com/open?id=1SppItyfrvzOCEh3_2dgiCWR-dMqXjZ2j",
+    "bio": "Patrick Blumenthal is an Investment Manager at Ecosystem Ventures, a venture capital firm with offices in Switzerland and Silicon Valley. He has spent nearly three years investing in and supporting early-stage technology startups. In parallel, he is completing a part-time Master\u2019s degree in Entre...",
+    "experience": "",
+    "expertise": "Product Development, Startup / Venture Building",
+    "yearsExp": "5\u201310 years"
   },
   {
     "id": "j32",
@@ -316,8 +440,12 @@
     "linkedin": "https://www.linkedin.com/in/ravi-teja-reddy-m-076330125/",
     "email": "rteja7799@gmail.com",
     "role": "Senior Site Reliability Engineer",
-    "org": "",
-    "photo": "https://drive.google.com/open?id=1DJWpuVTWCMS0B3gzmHHZZ2JcBzCGp6kR"
+    "org": "Oracle America Inc",
+    "photo": "https://drive.google.com/open?id=1DJWpuVTWCMS0B3gzmHHZZ2JcBzCGp6kR",
+    "bio": "Ravi Teja Reddy Mandala is a cloud infrastructure and distributed systems engineer with extensive experience building and operating large-scale platforms. He currently works on global infrastructure services supporting enterprise-scale cloud environments. Ravi is an IEEE Senior Member and activel...",
+    "experience": "",
+    "expertise": "Artificial Intelligence / Machine Learning, Cloud Infrastructure, DevOps / Platform Engineering, Web Development",
+    "yearsExp": "10+ years"
   },
   {
     "id": "j33",
@@ -327,27 +455,39 @@
     "email": "ajha8.hawk.iit.edu@gmail.com",
     "role": "Senior Software Engineer",
     "org": "Oracle",
-    "photo": "https://drive.google.com/open?id=114ZRAfNNrInBYnHLp-FPNzlCvFzy7faT"
+    "photo": "https://drive.google.com/open?id=114ZRAfNNrInBYnHLp-FPNzlCvFzy7faT",
+    "bio": "Ayush Jha is a Senior Software Engineer with over 10 years of experience building large-scale distributed systems for mission-critical industries. Currently at Oracle Health, he leads platform architecture for healthcare infrastructure serving thousands of organizations worldwide. His work spans ...",
+    "experience": "",
+    "expertise": "Artificial Intelligence / Machine Learning, Generative AI / LLM Applications, Cloud Infrastructure, DevOps / Platform Engineering, Cybersecurity, Product Development",
+    "yearsExp": "10+ years"
   },
   {
     "id": "j34",
     "initials": "DB",
     "name": "Debrath Banerjee",
-    "linkedin": "nan",
+    "linkedin": "",
     "email": "debrath.banerjee@ieee.org",
     "role": "Senior Software Engineer",
-    "org": "",
-    "photo": "https://drive.google.com/open?id=1lvdwp_lMYYzE7zIzpMFFurQK6CDmMISb"
+    "org": "Walmart Inc",
+    "photo": "https://drive.google.com/open?id=1lvdwp_lMYYzE7zIzpMFFurQK6CDmMISb",
+    "bio": "",
+    "experience": "",
+    "expertise": "Artificial Intelligence / Machine Learning, Generative AI / LLM Applications, Web Development",
+    "yearsExp": "10+ years"
   },
   {
     "id": "j35",
     "initials": "PB",
     "name": "Pravin Barapatre",
-    "linkedin": "nan",
+    "linkedin": "",
     "email": "pravin.barapatre@gmail.com",
     "role": "Software Engineering Manager",
     "org": "",
-    "photo": "https://drive.google.com/open?id=1TA3KIbEGXVp7Dty95tdTfN_VcbPJJ3SS"
+    "photo": "https://drive.google.com/open?id=1TA3KIbEGXVp7Dty95tdTfN_VcbPJJ3SS",
+    "bio": "Pravin Barapatre is a seasoned Software Engineering Manager based in Boston, MA, with over a decade of experience in building and scaling high-impact technology solutions. His expertise spans the full product development lifecycle, with a specialized focus on Artificial Intelligence, Machine Lear...",
+    "experience": "",
+    "expertise": "Artificial Intelligence / Machine Learning, Generative AI / LLM Applications, Web Development, Product Development",
+    "yearsExp": "10+ years"
   },
   {
     "id": "j36",
@@ -356,7 +496,81 @@
     "linkedin": "https://www.linkedin.com/in/pradyumnakumar/",
     "email": "pradyumnakumar7@gmail.com",
     "role": "Managing Delivery Architect",
-    "org": "Capgemini America",
-    "photo": "https://drive.google.com/open?id=1Eegf__Wz5wX3CEBe4ENut_LGSl9bZehA"
+    "org": "IEEE",
+    "photo": "https://drive.google.com/open?id=1Eegf__Wz5wX3CEBe4ENut_LGSl9bZehA",
+    "bio": "Pradyumna Kumar is a cloud computing professional with over 21 years of experience specializing in AWS, Azure, AI infrastructure, data center management, digital transformation, automation, cloud migrations, and service delivery. The document outlines extensive technical expertise, project leader...",
+    "experience": "",
+    "expertise": "Artificial Intelligence / Machine Learning, Cloud Infrastructure, DevOps / Platform Engineering, Cybersecurity",
+    "yearsExp": "10+ years"
+  },
+  {
+    "id": "j37",
+    "initials": "KR",
+    "name": "Kamalakar Reddy Singi",
+    "linkedin": "",
+    "email": "Singikamalakarreddy@gmail.com",
+    "role": "Senior software Engineer",
+    "org": "Abbott",
+    "photo": "https://drive.google.com/open?id=1C04McJYf69btKIs5zda3VeDr54sccHl5",
+    "bio": "",
+    "experience": "",
+    "expertise": "Web Development, Mobile Development",
+    "yearsExp": "3\u20135 years"
+  },
+  {
+    "id": "j38",
+    "initials": "CK",
+    "name": "Chandrayee Kumar",
+    "linkedin": "",
+    "email": "Chandrayee.kumar@ieee.org",
+    "role": "Lead software engineer",
+    "org": "UST global",
+    "photo": "https://drive.google.com/open?id=1GsydLBG-yT4ai2Us1fV7McjdnA7YQMQn",
+    "bio": "",
+    "experience": "",
+    "expertise": "Artificial Intelligence / Machine Learning, Generative AI / LLM Applications, Data Engineering / Big Data, Web Development",
+    "yearsExp": "10+ years"
+  },
+  {
+    "id": "j39",
+    "initials": "VJ",
+    "name": "Vaibhav Jain",
+    "linkedin": "https://www.linkedin.com/in/vaibhavjain2391",
+    "email": "vaibhavjain2391@gmail.com",
+    "role": "Senior Software Engineer",
+    "org": "Google",
+    "photo": "https://drive.google.com/open?id=1UKZlMHQFlEROahObFL5k0m1jxvRqWjHx",
+    "bio": "As a Senior Software Engineer at Google, Vaibhav leverages over 11 years of experience to deliver high-impact, business-critical solutions for YouTube. Currently, Vaibhav leads reliability, ML performance, infra initiatives for YouTube Shorts Effects, optimizing the creative experience for billio...",
+    "experience": "",
+    "expertise": "Artificial Intelligence / Machine Learning, Generative AI / LLM Applications, Cloud Infrastructure, Web Development, Mobile Development, Product Development, Startup / Venture Building",
+    "yearsExp": "10+ years"
+  },
+  {
+    "id": "j40",
+    "initials": "JS",
+    "name": "Jenil Shah",
+    "linkedin": "",
+    "email": "mailjenil@gmail.com",
+    "role": "Software Development Manager",
+    "org": "",
+    "photo": "https://drive.google.com/open?id=1Z5hyR6BEbVeg7xNUEinXbVOfm05mVLAq",
+    "bio": "",
+    "experience": "",
+    "expertise": "Artificial Intelligence / Machine Learning, Generative AI / LLM Applications, Data Engineering / Big Data, Product Development",
+    "yearsExp": "10+ years"
+  },
+  {
+    "id": "j41",
+    "initials": "VB",
+    "name": "Vijaya Bhaskar Oggu",
+    "linkedin": "https://www.linkedin.com/in/vijaya-bhaskar-oggu/",
+    "email": "vbhaskar.oggu@gmail.com",
+    "role": "Principal Member of Technical Staff",
+    "org": "Independent Researcher",
+    "photo": "https://drive.google.com/open?id=1EiKoCqU7FuJSQOFLJXXdiLoikwwxzqV6",
+    "bio": "Technology professional with over 21 years of experience in enterprise software engineering, cloud computing, and AI/ML-driven systems. Currently working as a Principal Member of Technical Staff, I specialize in designing scalable, cloud-native architectures using Java, Spring Boot, and microserv...",
+    "experience": "",
+    "expertise": "Artificial Intelligence / Machine Learning, Generative AI / LLM Applications, Cloud Infrastructure, DevOps / Platform Engineering, Cybersecurity, Data Engineering / Big Data, Web Development, Product Development",
+    "yearsExp": "10+ years"
   }
 ]

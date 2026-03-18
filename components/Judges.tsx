@@ -6,7 +6,7 @@ import judgesData from '@/judges-data.json';
 import AvatarHuman from './AvatarHuman';
 import TextScramble from './TextScramble';
 
-const REGISTER_URL = 'https://nextdev-hackathon.devpost.com/';
+const REGISTER_URL = 'https://nextgen-product-lab.devpost.com/';
 
 // Color themes for each judge
 const judgeColors: Record<string, { ja: string; jb: string }> = {
@@ -114,7 +114,7 @@ export default function Judges() {
           >
             <div className="j-stat-item">
               <Users size={16} />
-              <span>31 Elite Judges</span>
+              <span>41 Elite Judges</span>
             </div>
             <div className="j-stat-item featured">
               <Shield size={16} />

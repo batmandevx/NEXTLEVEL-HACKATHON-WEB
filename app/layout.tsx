@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     title: 'Next Level Hackathon 2026 — $7,001 in Prizes',
     description: 'Build the next generation of AI, product innovation, and startup-ready solutions. Open to developers, designers, founders, and professionals worldwide.',
     type: 'website',
-    url: 'https://nextdev-hackathon.devpost.com/',
+    url: 'https://nextgen-product-lab.devpost.com/',
   },
   twitter: {
     card: 'summary_large_image',

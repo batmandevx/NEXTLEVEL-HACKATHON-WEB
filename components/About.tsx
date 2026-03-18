@@ -141,7 +141,7 @@ export default function About() {
               ))}
             </div>
             <div className="panel-footer">
-              <span className="pf-url">nextdev-hackathon.devpost.com</span>
+              <span className="pf-url">nextgen-product-lab.devpost.com</span>
               <motion.span className="pf-live" animate={{ opacity: [1, 0.5, 1] }} transition={{ duration: 2, repeat: Infinity }}>
                 Registration Open
               </motion.span>

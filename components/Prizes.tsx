@@ -7,7 +7,7 @@ import SpotlightCard from './SpotlightCard';
 import GradientText from './GradientText';
 import AnimatedCounter from './AnimatedCounter';
 
-const REGISTER_URL = 'https://nextdev-hackathon.devpost.com/';
+const REGISTER_URL = 'https://nextgen-product-lab.devpost.com/';
 
 const prizes = [
   {

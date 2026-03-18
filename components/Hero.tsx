@@ -8,7 +8,7 @@ import AnimatedCounter from './AnimatedCounter';
 import GradientText from './GradientText';
 import { SplineScene } from '@/components/ui/splite';
 
-const REGISTER_URL = 'https://nextdev-hackathon.devpost.com/';
+const REGISTER_URL = 'https://nextgen-product-lab.devpost.com/';
 const DEADLINE = new Date('2026-03-23T02:30:00+05:30');
 
 const pad = (n: number) => String(n).padStart(2, '0');

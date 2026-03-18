@@ -3,7 +3,7 @@
 import { motion } from 'framer-motion';
 import TextScramble from './TextScramble';
 
-const DEVPOST = 'https://nextdev-hackathon.devpost.com/';
+const DEVPOST = 'https://nextgen-product-lab.devpost.com/';
 
 const resourcesData = [
   {
